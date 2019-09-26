@@ -9,7 +9,6 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
@@ -28,7 +27,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -46,7 +44,7 @@ public class LowLevelKeywords {
 	public WebDriver driver;
 	Alert alert;
 	int linkcount;
-	String orig_win_handle;
+	public String orig_win_handle, parentWindow;;
 
 	static Logger logger = Logger.getLogger(LowLevelKeywords.class);
 
@@ -520,6 +518,7 @@ public class LowLevelKeywords {
 				return driver.findElement(getByType(EleType,EleLocator));
 			}
 		});
+		element = null;
 	}
 
 	public void openLinkInNewWindow(String EleType,String EleLocator) {
@@ -635,7 +634,9 @@ public class LowLevelKeywords {
 			WebElement webElement = driver.findElement(getByType(EleType,EleLocator));
 			value = webElement.getAttribute(attribute.toLowerCase());
 		}
-		catch (Exception e) {}
+		catch (Exception e) {
+			
+		}
 
 		if ((value == "") || (value == null))
 		{
@@ -767,8 +768,8 @@ public class LowLevelKeywords {
 
 	}
 
-
-	/*...............New BIK by Selenium Dev Group.............................................*/
+	
+	 /*...............New BIK by Selenium Dev Group.............................................*/
 
 	// BIK 
 
@@ -837,16 +838,6 @@ public class LowLevelKeywords {
 		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,scrollHeight)");//(0, 250)
 		Thread.sleep(4000);
 	}
-
-	/*  public void zoomInBypercentage() throws InterruptedException {
-		  ((JavascriptExecutor) driver).executeScript("document.body.style.zoom='40%'");
-		  Thread.sleep(4000);
-}
-
-	  public void zoomBy100percentage() throws InterruptedException {
-		  ((JavascriptExecutor) driver).executeScript("document.body.style.zoom='100%'");
-		  Thread.sleep(4000); // no need as Ragi did the try catch block below.
-}*/
 
 
 	//zoom by percentage is not supported by Firefox
@@ -939,5 +930,61 @@ public class LowLevelKeywords {
 		action.clickAndHold(driver.findElement(getByType(ElementType,ElementLocator)))
 		.moveByOffset(xoffset,yoffset1 )
 		.release().build().perform();
+	}
+	
+	// ************************* NEW BUILT-IN-KEYWORDS ********************************
+							
+	public void switchToPrintWindow() {									
+		System.out.println("Parent : "+ parentWindow);							
+		Set<String> windowHandles = driver.getWindowHandles();							
+		System.out.println("No of Windows : "+windowHandles.size());							
+		for (String window : windowHandles) 							
+			System.out.println("windowHandle : "+ window);						
+	    driver.switchTo().window((String) windowHandles.toArray()[windowHandles.size() - 2]);								
+	    System.out.println("Current Handle : "+ driver.getWindowHandle());								
+									
+	}
+							
+	public void switchToParentWindow() {								
+		System.out.println("Parent : "+ parentWindow);							
+	    driver.switchTo().window(parentWindow);								
+	 								
+	}
+
+	public void closeLatestWindow() {								
+		System.out.println("Current Page Title : "+driver.getTitle());							
+		Set<String> windowHandles = driver.getWindowHandles();							
+									
+		for (String window : windowHandles) {							
+			if (window.equals(parentWindow)) break;						
+			else {						
+				driver.switchTo().window(window);					
+				driver.close();					
+				}					
+		}							
+					
+	}								
+									
+	public void highlightElement(String EleType, String EleLocator, String color) {
+	
+		try {	
+			WebElement element = driver.findElement(getByType(EleType,EleLocator));
+			// Draws a border around the found element. Does not set it back anyhow.
+			((JavascriptExecutor)driver).executeScript("arguments[0].style.border='3px solid " + color +"'", element);
+		} catch (Exception e){
+			System.out.println("Element Highlight Failed");	
+			}
+	}
+
+
+	public void unHighlightElement(String EleType, String EleLocator) {
+
+		try {
+			//After the screen shot is taken, the highlighted element should be unhighlighted
+			WebElement element = driver.findElement(getByType(EleType,EleLocator));
+			((JavascriptExecutor)driver).executeScript("arguments[0].style.border=''", element);
+		} catch (Exception e){
+			System.out.println("Element Highlight Failed");	
+		}
 	}
 }

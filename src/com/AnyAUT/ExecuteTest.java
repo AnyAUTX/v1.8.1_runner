@@ -38,14 +38,14 @@ public class ExecuteTest extends Utilities {
 	Object TestStep_Output ;
 	boolean set_Input_Flag=false;
 	
+	String testCase_Output;
+	
 	@BeforeTest
 	public void readTestData()
 	{   
 	
-		String TestRunName, TestRunBy, tempPath;
+		String TestRunName, tempPath;
 		TestRunName = new UICode().returnValues("TestRunName");
-		TestRunBy = new UICode().returnValues("TestRunBy");
-	
 		tempPath = Utilities.fileAbsolutePath()+"Results/TestRun_" + TestRunName + "/";
 	
 		fileInputPath = tempPath + "TestRun_" + TestRunName + ".xls";
@@ -109,6 +109,7 @@ public class ExecuteTest extends Utilities {
 				{
 					testSteps_Report=report.startTest(xlTestSteps[i][3]);
 					testCase_Result = "Pass";
+					testCase_Output = "Nothing For this step";
 					
 					keyWord =	xlTestSteps[i][4];
 					elementType = xlTestSteps[i][5];
@@ -132,51 +133,58 @@ public class ExecuteTest extends Utilities {
 						}
 						/*******************************************/
 						vStartTime = System.currentTimeMillis();
+
 						executeKW(lowLevelKeywords, keyWord, elementBy, elementID, testData);
+
 						//logger.info("Teststep status : "+testCase_Result);
 						long vStopTime = System.currentTimeMillis();
 					    long vElapsedTime = vStopTime - vStartTime;
 					    vElapsedTime = vElapsedTime/1000;
 					    String vExecutionTime = Long.toString(vElapsedTime); 
 					    xlTestSteps[i][13] = vExecutionTime;
-					    
+			    
 					    testSteps_Report.log(LogStatus.INFO, "Keyword : "+ xlTestSteps[i][4]);
 						testSteps_Report.log(LogStatus.INFO, "Element Id: "+ xlTestSteps[i][7]);
 						testSteps_Report.log(LogStatus.INFO, "Test Data: "+ xlTestSteps[i][8]);
 						
-					    if(testCase_Result.equalsIgnoreCase("Pass"))
-			    		{
+					    if(testCase_Result.equalsIgnoreCase("Pass")){
+					    	lowLevelKeywords.highlightElement(elementBy, elementID, "yellow" );
+					    	
 					    	if(elementType.equals("One Time Use")) {
-							    testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);
-					    	} else if(elementType.equals("Reusable Element")) {
-								testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);
-							} 
-					    else {
-							    testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);
-							}
+							    	testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);
+					    		} else if(elementType.equals("Reusable Element")) {
+					    				testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);
+					    			} 
+					    		else {
+					    			testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);
+					    		}
+							
 						    testSteps_Report.log(LogStatus.INFO, "Test Data Set: "+ xlTestSteps[i][14]); 
 				    		testCase_Report.appendChild(testSteps_Report);
-			    		}
-					    else if(!testCase_Result.equals("Pass")) 
-					    {
-							logger.info("test failed");
-							xlTestSteps[i][11]  = "Verification Failed";
-							stepDate = new Date();
-							dateFormat = new SimpleDateFormat("yyyy-MM-dd hh.mm.ss a") ;
-							String testStepScreenShot = lowLevelKeywords.takePageScreenshot(screenShotFilePath+"/"+xlTestSteps[i][1]+"_"+xlTestSteps[i][3]+"_"+dateFormat.format(stepDate)+".png");
-							xlTestSteps[i][12]="Look at Screenshot: "+screenShotFilePath; 
-							if(elementType.equals("One Time Use")) {
-								testSteps_Report.log(LogStatus.FAIL,xlTestSteps[i][10]);
-							} else if(elementType.equals("Reusable Element")) {
-								testSteps_Report.log(LogStatus.FAIL,xlTestSteps[i][10]);
-							} 
-					    else {
-								testSteps_Report.log(LogStatus.FAIL,xlTestSteps[i][10]);
-							}
-							testSteps_Report.log(LogStatus.INFO,testCase_Result);
-							testSteps_Report.log(LogStatus.INFO, "Test Data Set: "+ xlTestSteps[i][14]); 
-							testSteps_Report.log(LogStatus.INFO, "Error Snapshot:" +testCase_Report.addScreenCapture(testStepScreenShot));
-					    	testCase_Report.appendChild(testSteps_Report);
+				    		
+				    		lowLevelKeywords.unHighlightElement(elementBy, elementID );
+			    		} 
+					    else if(!testCase_Result.equals("Pass")){
+								logger.info("test failed");
+								xlTestSteps[i][11]  = "Verification Failed";
+								stepDate = new Date();
+								dateFormat = new SimpleDateFormat("yyyy-MM-dd hh.mm.ss a") ;
+								lowLevelKeywords.highlightElement(elementBy, elementID, "red" );
+								String testStepScreenShot = lowLevelKeywords.takePageScreenshot(screenShotFilePath+"/"+xlTestSteps[i][1]+"_"+xlTestSteps[i][3]+"_"+dateFormat.format(stepDate)+".png");
+								lowLevelKeywords.unHighlightElement(elementBy, elementID );
+								xlTestSteps[i][12]="Look at Screenshot: "+screenShotFilePath; 
+								if(elementType.equals("One Time Use")) {
+									testSteps_Report.log(LogStatus.FAIL,xlTestSteps[i][10]);
+								} else if(elementType.equals("Reusable Element")) {
+									testSteps_Report.log(LogStatus.FAIL,xlTestSteps[i][10]);
+								} 
+						    else {
+									testSteps_Report.log(LogStatus.FAIL,xlTestSteps[i][10]);
+								}
+								testSteps_Report.log(LogStatus.INFO,testCase_Result);
+								testSteps_Report.log(LogStatus.INFO, "Test Data Set: "+ xlTestSteps[i][14]); 
+								testSteps_Report.log(LogStatus.INFO, "Error Snapshot:" +testCase_Report.addScreenCapture(testStepScreenShot));
+						    	testCase_Report.appendChild(testSteps_Report);
 					    }
 //						System.out.println("in try");
 						}
@@ -193,7 +201,6 @@ public class ExecuteTest extends Utilities {
 							String testStepScreenShot=lowLevelKeywords.takePageScreenshot(screenShotFilePath+"/"+xlTestSteps[i][1]+"_"+xlTestSteps[i][3]+"_"+dateFormat.format(stepDate)+".png");	
 							xlTestSteps[i][12]="Look at Screenshot: " + screenShotFilePath; 
 							
-							//Updated by Ragi - Nov 2018 - Adding more info to extent reports - KW, EID, TD
 							testSteps_Report.log(LogStatus.INFO, "Keyword: "+ xlTestSteps[i][4]);
 							testSteps_Report.log(LogStatus.INFO, "Element Id: "+ xlTestSteps[i][7]);
 							testSteps_Report.log(LogStatus.INFO, "Test Data: "+ xlTestSteps[i][8]);
@@ -211,6 +218,7 @@ public class ExecuteTest extends Utilities {
 							testSteps_Report.log(LogStatus.INFO, "Error Snapshot:" +testCase_Report.addScreenCapture(testStepScreenShot));
 					    	testCase_Report.appendChild(testSteps_Report);
 						}//end of try-catch block
+					xlTestSteps[i][9] = testCase_Output;
 					xlTestSteps[i][10] = testCase_Result;
 					//for a failed test step, assigning 
 					//if (xlTestSteps[i][12].equals("-")) {
@@ -243,10 +251,12 @@ public class ExecuteTest extends Utilities {
 	
 	public void executeKW(LowLevelKeywords lowLevelKeywords, String strKeyWord, String ElementBy, String strElementID, String strTestData) throws Exception
 	{
+		String vReturn;
+		
 		switch(strKeyWord.trim()){
 		
 		case "openBrowser":
-			logger.info("Keyword is: "+ strKeyWord); // [KK] DO I NEED THIS 
+			//logger.info("Keyword is: "+ strKeyWord); // [KK] DO I NEED THIS 
 			lowLevelKeywords.openBrowser(strTestData);
 			break;
 		
@@ -445,18 +455,20 @@ public class ExecuteTest extends Utilities {
 			break;
 			
 		case "isEnabled":
-			lowLevelKeywords.isEnabled(ElementBy,strElementID);
-			logger.info(lowLevelKeywords.isEnabled(ElementBy,strElementID));
+			vReturn = lowLevelKeywords.isEnabled(ElementBy,strElementID);
+			logger.info("isEnabled " + vReturn);
+			System.out.println("isEnabled " + vReturn);
 			break;
 			
 		case "isDisabled":
-			lowLevelKeywords.isDisabled(ElementBy,strElementID);
-			logger.info("is disabled"+lowLevelKeywords.isDisabled(ElementBy,strElementID));
+			vReturn = lowLevelKeywords.isDisabled(ElementBy,strElementID);
+			logger.info("is disabled " + vReturn);
+			System.out.println("isEnabled " + vReturn);
 			break;
 			
 		case "isDisplayed":
 			lowLevelKeywords.isDisplayed(ElementBy,strElementID);
-			logger.info("is displayed"+lowLevelKeywords.isDisplayed(ElementBy,strElementID));
+			logger.info("is displayed "+lowLevelKeywords.isDisplayed(ElementBy,strElementID));
 			break;
 		
 		case "selectRadio":
@@ -509,6 +521,7 @@ public class ExecuteTest extends Utilities {
 			String attributeValue = lowLevelKeywords.getAttributeValue(ElementBy,strElementID,strTestData);
 			System.out.println("Value of attribute '"+ strTestData + "' : "+ attributeValue);
 			logger.info("Value of attribute '"+ strTestData +"' : "+ attributeValue);
+			testCase_Output = attributeValue;
 			break;
 			
 		case "getCssValue":

@@ -37,10 +37,9 @@ public class PrepareRun extends Utilities {
 	public void readSetUpData() throws Exception {
 		
 		File resultsDirectory, testSuiteDirectory;
-		String TestRunName, TestRunBy, TestRunLocation;
+		String TestRunName, TestRunLocation;
 		
 		TestRunName = new UICode().returnValues("TestRunName");
-		TestRunBy = new UICode().returnValues("TestRunBy");
 		TestRunLocation = new UICode().returnValues("TestRunLocation");
 		
 		PropertyConfigurator.configure("log4j.properties");

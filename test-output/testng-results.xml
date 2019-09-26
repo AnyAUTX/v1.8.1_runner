@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="2004" started-at="2019-09-21T19:53:34Z" finished-at="2019-09-21T19:53:36Z">
+  <suite name="Command line suite" duration-ms="21641" started-at="2019-09-26T05:01:40Z" finished-at="2019-09-26T05:02:02Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2004" started-at="2019-09-21T19:53:34Z" finished-at="2019-09-21T19:53:36Z">
+    <test name="Command line test" duration-ms="21641" started-at="2019-09-26T05:01:40Z" finished-at="2019-09-26T05:02:02Z">
       <class name="com.AnyAUT.PrepareRun">
-        <test-method status="PASS" signature="readSetUpData()[pri:0, instance:com.AnyAUT.PrepareRun@3e0a4aa2]" name="readSetUpData" is-config="true" duration-ms="1504" started-at="2019-09-21T12:53:34Z" finished-at="2019-09-21T12:53:35Z">
+        <test-method status="PASS" signature="readSetUpData()[pri:0, instance:com.AnyAUT.PrepareRun@42fa61ef]" name="readSetUpData" is-config="true" duration-ms="1490" started-at="2019-09-25T22:01:40Z" finished-at="2019-09-25T22:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readSetUpData -->
-        <test-method status="PASS" signature="createRunSetUpData()[pri:0, instance:com.AnyAUT.PrepareRun@3e0a4aa2]" name="createRunSetUpData" duration-ms="9" started-at="2019-09-21T12:53:35Z" finished-at="2019-09-21T12:53:35Z">
+        <test-method status="PASS" signature="createRunSetUpData()[pri:0, instance:com.AnyAUT.PrepareRun@42fa61ef]" name="createRunSetUpData" duration-ms="72" started-at="2019-09-25T22:01:42Z" finished-at="2019-09-25T22:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createRunSetUpData -->
-        <test-method status="PASS" signature="writeRunSetupData()[pri:0, instance:com.AnyAUT.PrepareRun@3e0a4aa2]" name="writeRunSetupData" is-config="true" duration-ms="487" started-at="2019-09-21T12:53:35Z" finished-at="2019-09-21T12:53:36Z">
+        <test-method status="PASS" signature="writeRunSetupData()[pri:0, instance:com.AnyAUT.PrepareRun@42fa61ef]" name="writeRunSetupData" is-config="true" duration-ms="20073" started-at="2019-09-25T22:01:42Z" finished-at="2019-09-25T22:02:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeRunSetupData -->

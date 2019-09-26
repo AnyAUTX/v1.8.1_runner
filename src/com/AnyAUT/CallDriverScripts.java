@@ -58,6 +58,9 @@ public class CallDriverScripts {
 		//execTest.addListener(listener);
 		System.out.println("Running execute");
 		execTest.run();
+		prepRun = null;
+		execTest = null;
+		listener = null;
 		
 	}
 
