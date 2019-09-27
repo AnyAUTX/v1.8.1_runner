@@ -148,7 +148,7 @@ public class ExecuteTest extends Utilities {
 						testSteps_Report.log(LogStatus.INFO, "Test Data: "+ xlTestSteps[i][8]);
 						
 					    if(testCase_Result.equalsIgnoreCase("Pass")){
-					    	lowLevelKeywords.highlightElement(elementBy, elementID, "yellow" );
+					    //	lowLevelKeywords.highlightElement(elementBy, elementID, "yellow" );
 					    	
 					    	if(elementType.equals("One Time Use")) {
 							    	testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);
@@ -162,7 +162,7 @@ public class ExecuteTest extends Utilities {
 						    testSteps_Report.log(LogStatus.INFO, "Test Data Set: "+ xlTestSteps[i][14]); 
 				    		testCase_Report.appendChild(testSteps_Report);
 				    		
-				    		lowLevelKeywords.unHighlightElement(elementBy, elementID );
+				    	//	lowLevelKeywords.unHighlightElement(elementBy, elementID );
 			    		} 
 					    else if(!testCase_Result.equals("Pass")){
 								logger.info("test failed");

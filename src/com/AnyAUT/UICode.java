@@ -35,7 +35,7 @@ public class UICode extends javax.swing.JFrame {
        this.getContentPane().setBackground(new java.awt.Color(255, 255, 255));
          
         // Window Title
-        JTextField newTitle = new JTextField("Claimatic - Test Automation Framework - v0.94 on GIT");
+        JTextField newTitle = new JTextField("Claimatic - Test Automation Framework - v0.95 on GIT");
         this.setTitle(newTitle.getText());
          
         // For browsing an Excel
