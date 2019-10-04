@@ -1,12 +1,20 @@
 package com.AnyAUT;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
@@ -20,6 +28,9 @@ import org.apache.log4j.PropertyConfigurator;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+
+import sun.audio.AudioPlayer;
+import sun.audio.AudioStream;
 
 public class ExecuteTest extends Utilities {
 
@@ -76,7 +87,7 @@ public class ExecuteTest extends Utilities {
 	}
 	
 	@Test
-	public void executeTestSteps()  {
+	public void executeTestSteps() throws IOException  {
 
 		LowLevelKeywords lowLevelKeywords = new LowLevelKeywords(myDriver);
 		DateFormat dateFormat;
@@ -102,7 +113,8 @@ public class ExecuteTest extends Utilities {
 
 			for ( int j=1; j < xlTestCasesRowCount; j++)
 			{
-				testCase_Report = report.startTest(xlTestCases[j][1]);		
+				testCase_Report = report.startTest(xlTestCases[j][1]);
+					
 				for (int i = 1; i < xlTestStepsRowCount; i++)
 				{  
 				if((xlTestCases[j][1]).equals(xlTestSteps[i][1]))
@@ -135,8 +147,8 @@ public class ExecuteTest extends Utilities {
 						vStartTime = System.currentTimeMillis();
 
 						executeKW(lowLevelKeywords, keyWord, elementBy, elementID, testData);
-
-						//logger.info("Teststep status : "+testCase_Result);
+						
+					//logger.info("Teststep status : "+testCase_Result);
 						long vStopTime = System.currentTimeMillis();
 					    long vElapsedTime = vStopTime - vStartTime;
 					    vElapsedTime = vElapsedTime/1000;
@@ -169,6 +181,7 @@ public class ExecuteTest extends Utilities {
 								xlTestSteps[i][11]  = "Verification Failed";
 								stepDate = new Date();
 								dateFormat = new SimpleDateFormat("yyyy-MM-dd hh.mm.ss a") ;
+								lowLevelKeywords.unHighlightElement(elementBy, elementID );
 								lowLevelKeywords.highlightElement(elementBy, elementID, "red" );
 								String testStepScreenShot = lowLevelKeywords.takePageScreenshot(screenShotFilePath+"/"+xlTestSteps[i][1]+"_"+xlTestSteps[i][3]+"_"+dateFormat.format(stepDate)+".png");
 								lowLevelKeywords.unHighlightElement(elementBy, elementID );
