@@ -236,3 +236,103 @@
 2019-10-08 09:21:42,046 - com.AnyAUT.ExecuteTest -ERROR - Error : NumberFormatException
 2019-10-08 09:21:42,197 - com.AnyAUT.ExecuteTest -INFO - KW: verifyValue ,Element Type: Reusable Element ,Element By:  ,Element ID: //input[@placeholder='Enter your email address'] ,Test Data: Hmm, Try Again
 2019-10-08 09:21:42,228 - com.AnyAUT.ExecuteTest -INFO - KW: closeBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-10-08 10:28:55,301 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\CTAF-Main-SourceCode-v0.94\CTAF_V0.94_GIT\RegressionExcels\CARRIER_SA_RegressionSuite_8thOct_2.xls
+2019-10-08 10:28:55,329 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\CTAF-Main-SourceCode-v0.94\CTAF_V0.94_GIT\Results\TestRun_08Oct_1028/TestRun_08Oct_1028.xls
+2019-10-08 10:28:56,292 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-10-08 10:28:56,304 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-10-08 10:28:56,307 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-10-08 10:28:56,308 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,314 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,317 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,319 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,322 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,325 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,328 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,337 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,341 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,348 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,353 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,362 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,372 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,380 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,389 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,402 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,415 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,419 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,423 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,426 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,433 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,437 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,442 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,452 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,455 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,458 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,460 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,466 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,469 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,473 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,475 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,477 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,482 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,486 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,490 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,493 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,499 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,505 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,512 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,523 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,531 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,539 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,542 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,545 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,548 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,550 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,552 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,558 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,561 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,567 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,570 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,573 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,581 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,584 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,588 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,590 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,592 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,597 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,599 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,599 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,600 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,600 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,604 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,607 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,610 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,613 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,616 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,619 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,624 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,630 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,634 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,637 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,640 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,642 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,648 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,651 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,652 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,654 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,655 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,658 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,662 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,667 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,672 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,681 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,687 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,689 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,693 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,711 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,716 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,721 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,726 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,740 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,756 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-10-08 10:28:56,769 - com.AnyAUT.PrepareRun -INFO - Main test execution has completed
+2019-10-08 10:28:56,783 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array

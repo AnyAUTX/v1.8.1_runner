@@ -408,16 +408,19 @@ public class UICode extends javax.swing.JFrame {
             //System.out.println("The command line argument is: " + args[0]); 
             ExecuteTest.logger.info("The command line argument is: " + args[0]);
   
-            	strTestRunName = "Jenkins-Test";
-        		strTestRunBy = "User";
-        		strTestRunLocation = args[0];
-        		strBrowserTimeout = "10";
-        		
-    	    	CallDriverScripts.runDriverScripts(strTestRunName);
-    			
-    			//quit the program
-    			System.exit(0);
-            	
+      		DateFormat df = new SimpleDateFormat("ddMMM_hhmm");  
+      		String currentDateTime = df.format(new Date());
+      		
+        	strTestRunName = currentDateTime;
+    		strTestRunBy = "User";
+    		strTestRunLocation = args[0];
+    		strBrowserTimeout = "10";
+    		
+	    	CallDriverScripts.runDriverScripts(strTestRunName);
+			
+			//quit the program
+			System.exit(0);
+        	
         } 
         else {
             System.out.println();
