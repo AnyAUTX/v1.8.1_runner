@@ -127,24 +127,49 @@
                   <a name="executeTestSteps">
                   </a> <!-- executeTestSteps -->
                   <span class="method-name">executeTestSteps</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;unknown&apos;, revision: &apos;5234b32&apos;, time: &apos;2017-03-10 08:59:44 -0800&apos;
-System info: host: &apos;DESKTOP-NQIIQ77&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Kosireddi\AppData\Local\Temp\rust_mozprofile.oaHOwCQhCaVL, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0.2, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=29740, browserName=firefox, moz:buildID=20190813150448, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: c865a491-793a-45e9-a202-01b8dd61337c
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
-	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:247)
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:249)
 	at com.AnyAUT.CallDriverScripts.runDriverScripts(CallDriverScripts.java:60)
-	at com.AnyAUT.UICode.main(UICode.java:416)
-... Removed 25 stack frames
+	at com.AnyAUT.UICode.buttonExecuteActionPerformed(UICode.java:368)
+	at com.AnyAUT.UICode.access$4(UICode.java:347)
+	at com.AnyAUT.UICode$5.actionPerformed(UICode.java:185)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+... Removed 21 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -205,12 +230,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'executeTestSteps')
 data.setCell(0, 2, 'com.AnyAUT.ExecuteTest')
-data.setCell(0, 3, 58230);
+data.setCell(0, 3, 1898756);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 31 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -245,11 +270,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">executeTestSteps</span>
-                <span class="method-start">485 ms</span>
+                <span class="method-start">636 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">getResults</span>
-                <span class="method-start">58716 ms</span>
+                <span class="method-start">1899393 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

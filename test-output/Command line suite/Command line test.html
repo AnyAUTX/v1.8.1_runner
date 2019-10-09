@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 08 09:20:47 PDT 2019</td>
+<td>Started on:</td><td>Tue Oct 08 14:51:03 PDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>58 seconds (58873 ms)</td>
+<tr><td>Total time:</td><td>1910 seconds (1910275 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,43 +76,51 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.AnyAUT.ExecuteTest.executeTestSteps()'><b>executeTestSteps</b><br>Test class: com.AnyAUT.ExecuteTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;unknown&apos;, revision: &apos;5234b32&apos;, time: &apos;2017-03-10 08:59:44 -0800&apos;
-System info: host: &apos;DESKTOP-NQIIQ77&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Kosireddi\AppData\Local\Temp\rust_mozprofile.oaHOwCQhCaVL, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0.2, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=29740, browserName=firefox, moz:buildID=20190813150448, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: c865a491-793a-45e9-a202-01b8dd61337c
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
-	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:247)
+<td><div><pre>java.lang.NullPointerException
+	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:249)
 	at com.AnyAUT.CallDriverScripts.runDriverScripts(CallDriverScripts.java:60)
-	at com.AnyAUT.UICode.main(UICode.java:416)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace260638966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace260638966'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;unknown&apos;, revision: &apos;5234b32&apos;, time: &apos;2017-03-10 08:59:44 -0800&apos;
-System info: host: &apos;DESKTOP-NQIIQ77&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Kosireddi\AppData\Local\Temp\rust_mozprofile.oaHOwCQhCaVL, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0.2, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=29740, browserName=firefox, moz:buildID=20190813150448, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: c865a491-793a-45e9-a202-01b8dd61337c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
-	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:247)
+	at com.AnyAUT.UICode.buttonExecuteActionPerformed(UICode.java:368)
+	at com.AnyAUT.UICode.access$4(UICode.java:347)
+	at com.AnyAUT.UICode$5.actionPerformed(UICode.java:185)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1112847798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1112847798'><pre>java.lang.NullPointerException
+	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:249)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -135,10 +143,48 @@ Session ID: c865a491-793a-45e9-a202-01b8dd61337c
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 	at org.testng.TestNG.run(TestNG.java:1048)
 	at com.AnyAUT.CallDriverScripts.runDriverScripts(CallDriverScripts.java:60)
-	at com.AnyAUT.UICode.main(UICode.java:416)
+	at com.AnyAUT.UICode.buttonExecuteActionPerformed(UICode.java:368)
+	at com.AnyAUT.UICode.access$4(UICode.java:347)
+	at com.AnyAUT.UICode$5.actionPerformed(UICode.java:185)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
 </pre></div></td>
-<td>58</td>
-<td>com.AnyAUT.ExecuteTest@130d63be</td></tr>
+<td>1898</td>
+<td>com.AnyAUT.ExecuteTest@73cfbb0</td></tr>
 </table><p>
 </body>
 </html>
