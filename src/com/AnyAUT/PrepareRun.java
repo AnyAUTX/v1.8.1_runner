@@ -371,11 +371,17 @@ public class PrepareRun extends Utilities {
 		
 		testStepArray.add(fA, 0, strModuleID);
 		testStepArray.add(fA, 1, strTestCaseID);
-		if (vTDID.trim().equals("-")|| vTDID.trim().equals("N/A")) {
+		/*if (vTDID.trim().equals("-")|| vTDID.trim().equals("N/A")) {
 			testStepArray.add(fA, 2, xlTestStepData[fJ][1]+"_"+runnerTSRowCount);
 		} else {
 			testStepArray.add(fA, 2, xlTestStepData[fJ][1]+"_"+vTDID+"_"+runnerTSRowCount);
 		}
+		if (vTDID.trim().equals("-")|| vTDID.trim().equals("N/A")) {
+			testStepArray.add(fA, 2, "#-" +runnerTSRowCount);
+		} else {
+			testStepArray.add(fA, 2, "#_"+vTDID+"-"+runnerTSRowCount);
+		}*/
+		testStepArray.add(fA, 2, "#-" +runnerTSRowCount);
 		testStepArray.add(fA, 3, strStepDetail);
 		testStepArray.add(fA, 4, strKeyWord);
 

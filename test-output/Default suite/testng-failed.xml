@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.AnyAUT.ExecuteTest">
+      <class name="com.AnyAUT.PrepareRun">
         <methods>
-          <include name="executeTestSteps"/>
-          <include name="readTestData"/>
+          <include name="readSetUpData"/>
+          <include name="createRunSetUpData"/>
         </methods>
-      </class> <!-- com.AnyAUT.ExecuteTest -->
+      </class> <!-- com.AnyAUT.PrepareRun -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

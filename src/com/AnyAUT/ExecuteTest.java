@@ -119,7 +119,7 @@ public class ExecuteTest extends Utilities {
 				{  
 				if((xlTestCases[j][1]).equals(xlTestSteps[i][1]))
 				{
-					testSteps_Report=report.startTest(xlTestSteps[i][3]);
+					testSteps_Report=report.startTest(xlTestSteps[i][2]+" : " + xlTestSteps[i][3]);
 					testCase_Result = "Pass";
 					testCase_Output = "Nothing For this step";
 					
@@ -155,6 +155,7 @@ public class ExecuteTest extends Utilities {
 					    String vExecutionTime = Long.toString(vElapsedTime); 
 					    xlTestSteps[i][13] = vExecutionTime;
 			    
+					    testSteps_Report.log(LogStatus.INFO, "TSID : "+ xlTestSteps[i][2]);
 					    testSteps_Report.log(LogStatus.INFO, "Keyword : "+ xlTestSteps[i][4]);
 						testSteps_Report.log(LogStatus.INFO, "Element Id: "+ xlTestSteps[i][7]);
 						testSteps_Report.log(LogStatus.INFO, "Test Data: "+ xlTestSteps[i][8]);
@@ -214,6 +215,7 @@ public class ExecuteTest extends Utilities {
 							String testStepScreenShot=lowLevelKeywords.takePageScreenshot(screenShotFilePath+"/"+xlTestSteps[i][1]+"_"+xlTestSteps[i][3]+"_"+dateFormat.format(stepDate)+".png");	
 							xlTestSteps[i][12]="Look at Screenshot: " + screenShotFilePath; 
 							
+						    testSteps_Report.log(LogStatus.INFO, "TSID : "+ xlTestSteps[i][2]);
 							testSteps_Report.log(LogStatus.INFO, "Keyword: "+ xlTestSteps[i][4]);
 							testSteps_Report.log(LogStatus.INFO, "Element Id: "+ xlTestSteps[i][7]);
 							testSteps_Report.log(LogStatus.INFO, "Test Data: "+ xlTestSteps[i][8]);
