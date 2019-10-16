@@ -297,3 +297,64 @@
 2019-10-16 14:08:54,788 [AWT-EventQueue-0] ERROR com.AnyAUT.ExecuteTest - Error : NumberFormatException
 2019-10-16 14:08:54,922 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: verifyValue ,Element Type: Reusable Element ,Element By:  ,Element ID: //input[@placeholder='Enter your email address'] ,Test Data: Hmm, Try Again
 2019-10-16 14:08:54,949 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: closeBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-10-16 14:19:06,202 [main] INFO com.AnyAUT.ExecuteTest - No command line arguments found.
+2019-10-16 14:29:01,061 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Input FIle Path: C:\CTAF-Main-SourceCode-v0.94\CTAF_V0.94_GIT\RegressionExcels\Demo_Small_Carrier_SA.xls
+2019-10-16 14:29:01,063 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Output file path  :C:\CTAF-Main-SourceCode-v0.94\CTAF_V0.94_GIT\Results\TestRun_16Oct_0228/TestRun_16Oct_0228.xls
+2019-10-16 14:29:01,469 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Entered Main Test
+2019-10-16 14:29:01,469 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Completed fetching the test cases ready for execution
+2019-10-16 14:29:01,470 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Completed assigning the top row
+2019-10-16 14:29:01,470 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Completed fetching test data sets for test case
+2019-10-16 14:29:01,473 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Completed fetching test data sets for test case
+2019-10-16 14:29:01,474 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Main test execution has completed
+2019-10-16 14:29:01,475 [AWT-EventQueue-0] INFO com.AnyAUT.PrepareRun - Test Cases are added to the array
+2019-10-16 14:29:02,300 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - C:\CTAF-Main-SourceCode-v0.94\CTAF_V0.94_GIT/Results/TestRun_16Oct_0228/TestRun_16Oct_0228.xls
+2019-10-16 14:29:02,300 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - C:\CTAF-Main-SourceCode-v0.94\CTAF_V0.94_GIT/Results/TestRun_16Oct_0228/RunResult.xls
+2019-10-16 14:29:02,302 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - Rows are 45
+2019-10-16 14:29:02,302 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - Cols are 15
+2019-10-16 14:29:02,306 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-10-16 14:29:06,351 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-10-16 14:29:07,938 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa 
+2019-10-16 14:29:08,099 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-10-16 14:29:08,221 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-10-16 14:29:08,312 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-10-16 14:29:13,313 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[contains(text(),'Welcome ')] ,Test Data: -
+2019-10-16 14:29:13,392 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Log Off')] ,Test Data: -
+2019-10-16 14:29:13,879 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: closeBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-10-16 14:29:13,940 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: firefox
+2019-10-16 14:29:18,377 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-10-16 14:29:20,180 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa 
+2019-10-16 14:29:20,258 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-10-16 14:29:20,326 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-10-16 14:29:22,817 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-10-16 14:29:27,817 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[contains(text(),'Welcome ')] ,Test Data: -
+2019-10-16 14:29:28,066 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Log Off')] ,Test Data: -
+2019-10-16 14:29:28,530 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: closeBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-10-16 14:29:32,642 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-10-16 14:29:36,183 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-10-16 14:29:37,697 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: -
+2019-10-16 14:29:37,751 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: tabKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: -
+2019-10-16 14:29:37,827 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: -
+2019-10-16 14:29:37,880 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: tabKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: -
+2019-10-16 14:29:37,931 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(@href, '#collapseOne')] ,Test Data: -
+2019-10-16 14:29:38,022 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-10-16 14:29:43,023 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: scrollByElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@name='_forget_password_email'] ,Test Data: -
+2019-10-16 14:29:43,082 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@id='reset_password'] ,Test Data: -
+2019-10-16 14:29:43,175 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: waitString
+2019-10-16 14:29:43,176 [AWT-EventQueue-0] ERROR com.AnyAUT.ExecuteTest - Error : NumberFormatException
+2019-10-16 14:29:43,673 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: verifyValue ,Element Type: Reusable Element ,Element By:  ,Element ID: //input[@placeholder='Enter your email address'] ,Test Data: Hmm, Try Again
+2019-10-16 14:29:43,710 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: closeBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-10-16 14:29:43,820 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: firefox
+2019-10-16 14:29:48,208 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-10-16 14:29:50,276 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: -
+2019-10-16 14:29:50,314 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: tabKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: -
+2019-10-16 14:29:50,351 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: -
+2019-10-16 14:29:50,383 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: tabKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: -
+2019-10-16 14:29:50,427 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(@href, '#collapseOne')] ,Test Data: -
+2019-10-16 14:29:50,680 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-10-16 14:29:55,681 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: scrollByElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@name='_forget_password_email'] ,Test Data: -
+2019-10-16 14:29:55,706 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@id='reset_password'] ,Test Data: -
+2019-10-16 14:29:55,944 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: waitString
+2019-10-16 14:29:55,944 [AWT-EventQueue-0] ERROR com.AnyAUT.ExecuteTest - Error : NumberFormatException
+2019-10-16 14:29:56,083 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: verifyValue ,Element Type: Reusable Element ,Element By:  ,Element ID: //input[@placeholder='Enter your email address'] ,Test Data: Hmm, Try Again
+2019-10-16 14:29:56,108 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - test failed
+2019-10-16 14:29:56,298 [AWT-EventQueue-0] INFO com.AnyAUT.ExecuteTest - KW: closeBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
