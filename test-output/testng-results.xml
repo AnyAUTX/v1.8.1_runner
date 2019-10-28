@@ -2,45 +2,20 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="59788" started-at="2019-10-16T21:29:01Z" finished-at="2019-10-16T21:30:01Z">
+  <suite name="Command line suite" duration-ms="8937062" started-at="2019-10-27T08:55:45Z" finished-at="2019-10-27T11:24:42Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="59788" started-at="2019-10-16T21:29:01Z" finished-at="2019-10-16T21:30:01Z">
+    <test name="Command line test" duration-ms="8937062" started-at="2019-10-27T08:55:45Z" finished-at="2019-10-27T11:24:42Z">
       <class name="com.AnyAUT.ExecuteTest">
-        <test-method status="PASS" signature="readTestData()[pri:0, instance:com.AnyAUT.ExecuteTest@5870f62f]" name="readTestData" is-config="true" duration-ms="411" started-at="2019-10-16T14:29:01Z" finished-at="2019-10-16T14:29:02Z">
+        <test-method status="PASS" signature="readTestData()[pri:0, instance:com.AnyAUT.ExecuteTest@1ac8adb8]" name="readTestData" is-config="true" duration-ms="512" started-at="2019-10-27T01:55:45Z" finished-at="2019-10-27T01:55:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readTestData -->
-        <test-method status="FAIL" signature="executeTestSteps()[pri:0, instance:com.AnyAUT.ExecuteTest@5870f62f]" name="executeTestSteps" duration-ms="58916" started-at="2019-10-16T14:29:02Z" finished-at="2019-10-16T14:30:01Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 08:59:44 -0800'
-System info: host: 'DESKTOP-NQIIQ77', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Kosireddi\AppData\Local\Temp\rust_mozprofile.QOU7REdvaoEr, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=69.0.3, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=70832, browserName=firefox, moz:buildID=20191009172106, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: a9e7f136-f576-4a22-b06f-7756c0031815]]>
-            </message>
+        <test-method status="FAIL" signature="executeTestSteps()[pri:0, instance:com.AnyAUT.ExecuteTest@1ac8adb8]" name="executeTestSteps" duration-ms="8852782" started-at="2019-10-27T01:55:45Z" finished-at="2019-10-27T04:23:18Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 08:59:44 -0800'
-System info: host: 'DESKTOP-NQIIQ77', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Kosireddi\AppData\Local\Temp\rust_mozprofile.QOU7REdvaoEr, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=69.0.3, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=70832, browserName=firefox, moz:buildID=20191009172106, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: a9e7f136-f576-4a22-b06f-7756c0031815
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
-	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:249)
+              <![CDATA[java.lang.NullPointerException
+	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:251)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -104,11 +79,11 @@ Session ID: a9e7f136-f576-4a22-b06f-7756c0031815
 	at java.awt.EventDispatchThread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTestSteps -->
-        <test-method status="PASS" signature="getResults()[pri:0, instance:com.AnyAUT.ExecuteTest@5870f62f]" name="getResults" is-config="true" duration-ms="461" started-at="2019-10-16T14:30:01Z" finished-at="2019-10-16T14:30:01Z">
+        <test-method status="PASS" signature="getResults()[pri:0, instance:com.AnyAUT.ExecuteTest@1ac8adb8]" name="getResults" is-config="true" duration-ms="83766" started-at="2019-10-27T04:23:18Z" finished-at="2019-10-27T04:24:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->

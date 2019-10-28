@@ -35,7 +35,7 @@ public class UICode extends javax.swing.JFrame {
        this.getContentPane().setBackground(new java.awt.Color(255, 255, 255));
          
         // Window Title
-        JTextField newTitle = new JTextField("Claimatic - Test Automation Framework - v1.0");
+        JTextField newTitle = new JTextField("Claimatic - Test Automation Framework - v1.03");
         this.setTitle(newTitle.getText());
          
         // For browsing an Excel
@@ -411,11 +411,16 @@ public class UICode extends javax.swing.JFrame {
       		DateFormat df = new SimpleDateFormat("ddMMM_hhmm");  
       		String currentDateTime = df.format(new Date());
       		
-        	strTestRunName = currentDateTime;
     		strTestRunBy = "User";
     		strTestRunLocation = args[0];
     		strBrowserTimeout = "10";
-    		
+    		    	
+    		File f = new File(strTestRunLocation);
+    		String vFileName = (f.getName()).toString();
+    		String[] vExcelName =  vFileName.split("\\.");
+          	strTestRunName = currentDateTime + "_" + vExcelName[0];
+    		f = null;
+    	
 	    	CallDriverScripts.runDriverScripts(strTestRunName);
 			
 			//quit the program

@@ -127,21 +127,8 @@
                   <a name="executeTestSteps">
                   </a> <!-- executeTestSteps -->
                   <span class="method-name">executeTestSteps</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;unknown&apos;, revision: &apos;5234b32&apos;, time: &apos;2017-03-10 08:59:44 -0800&apos;
-System info: host: &apos;DESKTOP-NQIIQ77&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Kosireddi\AppData\Local\Temp\rust_mozprofile.QOU7REdvaoEr, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=69.0.3, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=70832, browserName=firefox, moz:buildID=20191009172106, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: a9e7f136-f576-4a22-b06f-7756c0031815
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
-	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:249)
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:251)
 	at com.AnyAUT.CallDriverScripts.runDriverScripts(CallDriverScripts.java:60)
 	at com.AnyAUT.UICode.buttonExecuteActionPerformed(UICode.java:368)
 	at com.AnyAUT.UICode.access$4(UICode.java:347)
@@ -182,7 +169,7 @@ Session ID: a9e7f136-f576-4a22-b06f-7756c0031815
 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.awt.EventDispatchThread.run(Unknown Source)
-... Removed 25 stack frames
+... Removed 21 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -243,12 +230,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'executeTestSteps')
 data.setCell(0, 2, 'com.AnyAUT.ExecuteTest')
-data.setCell(0, 3, 58916);
+data.setCell(0, 3, 8852782);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 2 hours</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -283,11 +270,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">executeTestSteps</span>
-                <span class="method-start">411 ms</span>
+                <span class="method-start">513 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">getResults</span>
-                <span class="method-start">59327 ms</span>
+                <span class="method-start">8853296 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

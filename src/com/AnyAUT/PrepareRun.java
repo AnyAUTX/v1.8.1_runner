@@ -263,7 +263,7 @@ public class PrepareRun extends Utilities {
 			e.printStackTrace();
 		}
 		
-		logger.info("Main test execution has completed");
+		logger.info("Main test preparation is completed");
 	
 	}
 

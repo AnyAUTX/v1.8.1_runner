@@ -108,26 +108,21 @@ public class LowLevelKeywords {
 				System.setProperty("webdriver.edge.driver", Utilities.fileAbsolutePath() + osPath + "MicrosoftWebDriver.exe");
 				driver = new EdgeDriver();
 				break;
-
-			case "safari":
+				/*
+				case "safari":
 				System.out.println("Entered Safari Edge Browser");
-				System.setProperty("webdriver.edge.driver", Utilities.fileAbsolutePath() + osPath + "MicrosoftWebDriver.exe");
+				//System.setProperty("webdriver.safari.driver", Utilities.fileAbsolutePath() + osPath + "SafariWebDriver.exe");
 				driver = new SafariDriver();
 				break;
 
-				/*	case "PHANTOMJS":
+				case "PHANTOMJS":
 			   System.setProperty("phantomjs.binary.path", Utilities.fileAbsolutePath() + "Browsers/Win/phantomjs.exe");  
 			   driver = new PhantomJSDriver();
-			break;*/
+				break;*/
 
 			default:
-				System.out.println("Default browser - Chrome");
-				if (System.getProperty("os.name").contains("Windows")) {
-					System.setProperty("webdriver.chrome.driver", Utilities.fileAbsolutePath() + "Browsers/Win/chromedriver.exe");
-
-				}else {
-					System.setProperty("webdriver.chrome.driver", Utilities.fileAbsolutePath() + "Browsers/Mac/chromedriver");
-				}
+				System.out.println("Default Browser - Chrome");
+				System.setProperty("webdriver.chrome.driver", Utilities.fileAbsolutePath() + osPath + "chromedriver.exe");
 				driver = new ChromeDriver();
 
 			}
@@ -226,7 +221,6 @@ public class LowLevelKeywords {
 
 	public void closeBrowser() {
 		driver.close();
-		//driver.quit();
 	}
 
 	public void quitBrowser() {
@@ -262,7 +256,36 @@ public class LowLevelKeywords {
 		}
 	}
 
-	public String verifyText(String EleType,String EleLocator, String testData) {
+	public String verifyText(String EleType, String EleLocator, String testData) {
+		testData = testData.trim(); 
+		String textToVerify = getElementHighlight(EleType,EleLocator).getText().trim();
+
+		ExecuteTest.verifyOutput = textToVerify;
+		System.out.println("Expected Value - Test Data : " + testData );
+		System.out.println("Actual Value - from UI: " + textToVerify );
+
+		if (testData.equalsIgnoreCase(textToVerify)) {
+			return "Pass";
+		} else {
+			return "Fail";
+		}
+	}
+	public String verifyPartialText(String EleType, String EleLocator, String testData) {
+		testData = testData.trim(); 
+		String textToVerify = getElementHighlight(EleType,EleLocator).getText().trim();
+
+		ExecuteTest.verifyOutput = textToVerify;
+		// Verify partial text Anywhere in the STRING
+		boolean partialMatch = textToVerify.matches("(?i).*" + testData + ".*");
+
+		if (partialMatch) {
+			return "Pass";
+		} else {
+			return "Fail";
+		}
+	}
+	
+	public String verifyTextAnyWhere(String EleType,String EleLocator, String testData) {
 		testData = testData.trim(); 
 		String textToVerify = getElementHighlight(EleType,EleLocator).getText().trim();
 
@@ -853,7 +876,7 @@ public class LowLevelKeywords {
 		}
 		return false;  
 	}
-
+	
 	public void waitforAlert() { 
 
 		WebDriverWait wait = new WebDriverWait(driver, 15); 
