@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="8937062" started-at="2019-10-27T08:55:45Z" finished-at="2019-10-27T11:24:42Z">
+  <suite name="Command line suite" duration-ms="19064036" started-at="2019-11-04T09:37:03Z" finished-at="2019-11-04T14:54:47Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="8937062" started-at="2019-10-27T08:55:45Z" finished-at="2019-10-27T11:24:42Z">
+    <test name="Command line test" duration-ms="19064036" started-at="2019-11-04T09:37:03Z" finished-at="2019-11-04T14:54:47Z">
       <class name="com.AnyAUT.ExecuteTest">
-        <test-method status="PASS" signature="readTestData()[pri:0, instance:com.AnyAUT.ExecuteTest@1ac8adb8]" name="readTestData" is-config="true" duration-ms="512" started-at="2019-10-27T01:55:45Z" finished-at="2019-10-27T01:55:45Z">
+        <test-method status="PASS" signature="readTestData()[pri:0, instance:com.AnyAUT.ExecuteTest@6ccd62eb]" name="readTestData" is-config="true" duration-ms="797" started-at="2019-11-04T01:37:03Z" finished-at="2019-11-04T01:37:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readTestData -->
-        <test-method status="FAIL" signature="executeTestSteps()[pri:0, instance:com.AnyAUT.ExecuteTest@1ac8adb8]" name="executeTestSteps" duration-ms="8852782" started-at="2019-10-27T01:55:45Z" finished-at="2019-10-27T04:23:18Z">
+        <test-method status="FAIL" signature="executeTestSteps()[pri:0, instance:com.AnyAUT.ExecuteTest@6ccd62eb]" name="executeTestSteps" duration-ms="18847809" started-at="2019-11-04T01:37:03Z" finished-at="2019-11-04T06:51:11Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTestSteps -->
-        <test-method status="PASS" signature="getResults()[pri:0, instance:com.AnyAUT.ExecuteTest@1ac8adb8]" name="getResults" is-config="true" duration-ms="83766" started-at="2019-10-27T04:23:18Z" finished-at="2019-10-27T04:24:42Z">
+        <test-method status="PASS" signature="getResults()[pri:0, instance:com.AnyAUT.ExecuteTest@6ccd62eb]" name="getResults" is-config="true" duration-ms="215430" started-at="2019-11-04T06:51:11Z" finished-at="2019-11-04T06:54:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
