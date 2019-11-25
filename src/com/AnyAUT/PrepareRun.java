@@ -100,71 +100,133 @@ public class PrepareRun extends Utilities {
 		
 		a = 1;
 		
+		int demoCounterLimit = 200;
+		
 		try{
 			//loop through each of the executable test cases
 			for (int i = 0; i < executableTCRowCount; i++) {
-				strTestCaseID = xlExecutableTCs[i][1];
-				strModuleID = xlExecutableTCs[i][0];
-				vTDSets = xlExecutableTCs[i][5];
-				//call fetchTestDataSets method to fetch the Test Data set IDs for each test case
-				testDataSetID = fetchTestDataSets(vTDSets);
-				//steps are repeated for the number of Test Data sets for each test case
-				for (int r = 0; r < testDataSetID.length; r++) {
-					//if a null value is in Test Data set then break out of the for loop
-					if (testDataSetID[r] == null) { 
-						break; 
-					}
-					runnerTSRowCount = 1;
-					//steps are repeated for the number of Test Steps for each test case
-					for (int j = 1;j < testStepRowCount;j++) {
-						strElementDetails = new String[2];
-						vTSTCID = xlTestStepData[j][1];
-						vTSModID = xlTestStepData[j][0];
-						//verify if the Module ID and Test Case at the test case level are same as test step
-						if ((strModuleID.equalsIgnoreCase(vTSModID)==true) &&(strTestCaseID.equals(vTSTCID)==true)) {
-							//capture elementID, Keyword type, Test Data from Test Data sheet
-							strElementType = xlTestStepData[j][6];
-							strElementBy = xlTestStepData[j][7];
-							strElementID = xlTestStepData[j][8];
-							strTestDataType = xlTestStepData[j][9];
-							strTestData = xlTestStepData[j][10];
-							strKeyWordType = xlTestStepData[j][4];
-							//verify if the Keyword is HLK
-							if (strKeyWordType.equalsIgnoreCase("UDK")==true) {
-								//repeat steps for the number of number in Highlevel Keywords sheet
-								for (int l = 1; l < xRows_HLK; l++) {
-									//verify if the step description of a test step matches the step description in highlevel keywords sheet
-									if (xlTestStepData[j][5].equals(xlHighLevelKeysData[l][0])==true) {
-										strStepDetail = xlHighLevelKeysData[l][3];
-										strKeyWord = xlHighLevelKeysData[l][4];	
-										strElementType = xlHighLevelKeysData[l][5];
-										strElementBy = xlHighLevelKeysData[l][6];
-										strElementID = xlHighLevelKeysData[l][7];
-										strTestDataType = xlHighLevelKeysData[l][8];
-										strTestData = xlHighLevelKeysData[l][9];
+				if (runnerTSRowCount < demoCounterLimit) {
+						strTestCaseID = xlExecutableTCs[i][1];
+						strModuleID = xlExecutableTCs[i][0];
+						vTDSets = xlExecutableTCs[i][5];
+						//call fetchTestDataSets method to fetch the Test Data set IDs for each test case
+						testDataSetID = fetchTestDataSets(vTDSets);
+						//steps are repeated for the number of Test Data sets for each test case
+						for (int r = 0; r < testDataSetID.length; r++) {
+							//if a null value is in Test Data set then break out of the for loop
+							if (testDataSetID[r] == null) { 
+								break; 
+							}
+							runnerTSRowCount = 1;
+							//steps are repeated for the number of Test Steps for each test case
+							for (int j = 1;j < testStepRowCount;j++) {
+								strElementDetails = new String[2];
+								vTSTCID = xlTestStepData[j][1];
+								vTSModID = xlTestStepData[j][0];
+								//verify if the Module ID and Test Case at the test case level are same as test step
+								if ((strModuleID.equalsIgnoreCase(vTSModID)==true) &&(strTestCaseID.equals(vTSTCID)==true)) {
+									//capture elementID, Keyword type, Test Data from Test Data sheet
+									strElementType = xlTestStepData[j][6];
+									strElementBy = xlTestStepData[j][7];
+									strElementID = xlTestStepData[j][8];
+									strTestDataType = xlTestStepData[j][9];
+									strTestData = xlTestStepData[j][10];
+									strKeyWordType = xlTestStepData[j][4];
+									//verify if the Keyword is HLK
+									if (strKeyWordType.equalsIgnoreCase("UDK")==true) {
+										//repeat steps for the number of number in Highlevel Keywords sheet
+										for (int l = 1; l < xRows_HLK; l++) {
+											//verify if the step description of a test step matches the step description in highlevel keywords sheet
+											if (xlTestStepData[j][5].equals(xlHighLevelKeysData[l][0])==true) {
+												strStepDetail = xlHighLevelKeysData[l][3];
+												strKeyWord = xlHighLevelKeysData[l][4];	
+												strElementType = xlHighLevelKeysData[l][5];
+												strElementBy = xlHighLevelKeysData[l][6];
+												strElementID = xlHighLevelKeysData[l][7];
+												strTestDataType = xlHighLevelKeysData[l][8];
+												strTestData = xlHighLevelKeysData[l][9];
+												//call this method to assign data in Output, Result, Error, 
+												//ScreenShot and TimeTaken columns
+												assignRemainingData(j);
+												
+												//call this method to fetch the value of the element
+												if (strElementType.trim().equalsIgnoreCase("Reusable Element")) {//SR
+													strElementDetails = getEID(strElementID);
+												} else if (strElementType.trim().length() == 0){
+													strElementDetails[0] = "-";
+													strElementDetails[1] = "-";
+													//strElementDetails[2] = "-";
+												} else if ((strElementType.trim().length() > 0) || (strElementType.equals("-")) ){
+													//strElementDetails[0] = strElementType;
+													strElementDetails[0] = strElementBy;
+													strElementDetails[1] = strElementID;
+												} else if ((strElementType.trim().length() > 0) || (strElementType.equals("One Time Use")) ){
+													//strElementDetails[0] = strElementType;
+													strElementDetails[0] = strElementBy;
+													strElementDetails[1] = strElementID;
+												}/*
+												} else if (strElementType.trim().length() == 0){
+												strElementDetails[0] = "-";
+												strElementDetails[1] = "-";
+												}else if ((strElementType.trim().length() > 0) || (strElementType.equals("-")) ){
+													strElementDetails[0] = strElementType;
+													strElementDetails[1] = strElementID;
+												}*/
+													
+												// Karthik : Changing to fix the @@@ change
+												/*} else if ((strElementType.trim().length() == 0) || (strElementType.equals("-")){
+													strElementDetails[0] = "-";
+													strElementDetails[1] = "-";
+												}else if ((strElementType.trim().length() > 0)){
+													// This code gets executed only for One Time Use.
+													String[] strElement;
+													strElement = strElementID.split("@@@");
+													strElementDetails[0] = strElement[0];
+													strElementDetails[1] = strElement[1];
+													
+													// strElementDetails[0] = strElementType;
+													// strElementDetails[1] = strElementID;
+												}*/
+												// End of Karthik's changes
+												System.out.println("Test Data type : " + strTestDataType);
+												//fetch test data
+												if ((testDataSetID[r].trim().equals("-")) || (testDataSetID[r].trim().length() == 0)) {//SR
+													strTestData = "-";
+												}else if (strTestDataType.trim().equalsIgnoreCase("Reusable TestData")) {//SR
+													//call this method to fetch the test data value
+													strTestData = getTD(strTestData, testDataSetID[r].trim());
+												}
+												//call this method to add the o/p data to an array
+												updateTestRunnerArray(a, j, testDataSetID[r].trim());
+												a++;
+											}//end of if	
+										}//end of l for loop
+									} else if (strKeyWordType.equalsIgnoreCase("BIK")) {
+										strStepDetail = xlTestStepData[j][3];
+										strKeyWord = xlTestStepData[j][5];
 										//call this method to assign data in Output, Result, Error, 
 										//ScreenShot and TimeTaken columns
 										assignRemainingData(j);
-										
 										//call this method to fetch the value of the element
-										if (strElementType.trim().equalsIgnoreCase("Reusable Element")) {//SR
+										if (strElementType.equalsIgnoreCase("Reusable Element")) {//SR
 											strElementDetails = getEID(strElementID);
 										} else if (strElementType.trim().length() == 0){
 											strElementDetails[0] = "-";
 											strElementDetails[1] = "-";
 											//strElementDetails[2] = "-";
-										} else if ((strElementType.trim().length() > 0) || (strElementType.equals("-")) ){
+										} else if ((strElementType.trim().length() > 0) || (strElementType.trim().equals("-")) ){
 											//strElementDetails[0] = strElementType;
 											strElementDetails[0] = strElementBy;
 											strElementDetails[1] = strElementID;
-										} else if ((strElementType.trim().length() > 0) || (strElementType.equals("One Time Use")) ){
+										} else if ((strElementType.trim().length() > 0) || (strElementType.trim().equals("One Time Use")) ){
 											//strElementDetails[0] = strElementType;
 											strElementDetails[0] = strElementBy;
 											strElementDetails[1] = strElementID;
-										}/*
+										}
+										/*
 										} else if (strElementType.trim().length() == 0){
-										strElementDetails[0] = "-";
-										strElementDetails[1] = "-";
+											strElementDetails[0] = "-";
+											strElementDetails[1] = "-";
 										}else if ((strElementType.trim().length() > 0) || (strElementType.equals("-")) ){
 											strElementDetails[0] = strElementType;
 											strElementDetails[1] = strElementID;
@@ -185,79 +247,22 @@ public class PrepareRun extends Utilities {
 											// strElementDetails[1] = strElementID;
 										}*/
 										// End of Karthik's changes
-										System.out.println("Test Data type : " + strTestDataType);
-										//fetch test data
-										if ((testDataSetID[r].trim().equals("-")) || (testDataSetID[r].trim().length() == 0)) {//SR
+										if ((testDataSetID[r].trim().equals("-")) || (testDataSetID[r].trim().length() == 0)) {
 											strTestData = "-";
-										}else if (strTestDataType.trim().equalsIgnoreCase("Reusable TestData")) {//SR
+										}else if (strTestDataType.equalsIgnoreCase("Reusable TestData")) {//SR
 											//call this method to fetch the test data value
 											strTestData = getTD(strTestData, testDataSetID[r].trim());
 										}
 										//call this method to add the o/p data to an array
 										updateTestRunnerArray(a, j, testDataSetID[r].trim());
 										a++;
-									}//end of if	
-								}//end of l for loop
-							} else if (strKeyWordType.equalsIgnoreCase("BIK")) {
-								strStepDetail = xlTestStepData[j][3];
-								strKeyWord = xlTestStepData[j][5];
-								//call this method to assign data in Output, Result, Error, 
-								//ScreenShot and TimeTaken columns
-								assignRemainingData(j);
-								//call this method to fetch the value of the element
-								if (strElementType.equalsIgnoreCase("Reusable Element")) {//SR
-									strElementDetails = getEID(strElementID);
-								} else if (strElementType.trim().length() == 0){
-									strElementDetails[0] = "-";
-									strElementDetails[1] = "-";
-									//strElementDetails[2] = "-";
-								} else if ((strElementType.trim().length() > 0) || (strElementType.trim().equals("-")) ){
-									//strElementDetails[0] = strElementType;
-									strElementDetails[0] = strElementBy;
-									strElementDetails[1] = strElementID;
-								} else if ((strElementType.trim().length() > 0) || (strElementType.trim().equals("One Time Use")) ){
-									//strElementDetails[0] = strElementType;
-									strElementDetails[0] = strElementBy;
-									strElementDetails[1] = strElementID;
-								}
-								/*
-								} else if (strElementType.trim().length() == 0){
-									strElementDetails[0] = "-";
-									strElementDetails[1] = "-";
-								}else if ((strElementType.trim().length() > 0) || (strElementType.equals("-")) ){
-									strElementDetails[0] = strElementType;
-									strElementDetails[1] = strElementID;
-								}*/
-									
-								// Karthik : Changing to fix the @@@ change
-								/*} else if ((strElementType.trim().length() == 0) || (strElementType.equals("-")){
-									strElementDetails[0] = "-";
-									strElementDetails[1] = "-";
-								}else if ((strElementType.trim().length() > 0)){
-									// This code gets executed only for One Time Use.
-									String[] strElement;
-									strElement = strElementID.split("@@@");
-									strElementDetails[0] = strElement[0];
-									strElementDetails[1] = strElement[1];
-									
-									// strElementDetails[0] = strElementType;
-									// strElementDetails[1] = strElementID;
-								}*/
-								// End of Karthik's changes
-								if ((testDataSetID[r].trim().equals("-")) || (testDataSetID[r].trim().length() == 0)) {
-									strTestData = "-";
-								}else if (strTestDataType.equalsIgnoreCase("Reusable TestData")) {//SR
-									//call this method to fetch the test data value
-									strTestData = getTD(strTestData, testDataSetID[r].trim());
-								}
-								//call this method to add the o/p data to an array
-								updateTestRunnerArray(a, j, testDataSetID[r].trim());
-								a++;
-								}//end of if
-						}//end if 
-					}//end j loop
-				}//end of r loop
-			}//end i for loop
+										}//end of if
+								}//end if
+							}//end j loop
+						}//end of r loop
+					}//end i for loop
+				
+			}
 		}catch (Exception e) {
 			logger.error("Exception occured in main test");
 			e.printStackTrace();

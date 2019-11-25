@@ -318,7 +318,10 @@ public class ExecuteTest extends Utilities {
 			testCase_Result = lowLevelKeywords.verifyMultilineText(ElementBy, strElementID, strTestData);
 			break;
 
-
+		case "verifyPartialText":
+			testCase_Result = lowLevelKeywords.verifyPartialText(ElementBy, strElementID, strTestData);
+			break;
+			
 		case "verifyValue":
 			verifyOutput = "Starting";
 			testCase_Result = lowLevelKeywords.verifyValue(ElementBy, strElementID, strTestData);

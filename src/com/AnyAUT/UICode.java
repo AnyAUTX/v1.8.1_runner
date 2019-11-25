@@ -35,13 +35,13 @@ public class UICode extends javax.swing.JFrame {
        this.getContentPane().setBackground(new java.awt.Color(255, 255, 255));
          
         // Window Title
-        JTextField newTitle = new JTextField("Claimatic - Test Automation Framework - v1.03");
+        JTextField newTitle = new JTextField("AnyAUTxl - Excel Driven Test Automation Framework");
         this.setTitle(newTitle.getText());
          
         // For browsing an Excel
         chooseExcelFile = new JFileChooser();
         chooseExcelFile.setCurrentDirectory(new File("C:\\"));
-        chooseExcelFile.setDialogTitle("Select Claimatic Regression Excel");
+        chooseExcelFile.setDialogTitle("Select AnyAUTxl Regression Excel");
         chooseExcelFile.setFileFilter(new FileNameExtensionFilter("Excel Files", "xls"));
         
         // Label Font Setting
@@ -65,12 +65,12 @@ public class UICode extends javax.swing.JFrame {
         buttonExecute.setText("Execute Automation Test");
         
         labelCopyright.setFont(new java.awt.Font("Calibri", 1, 18)); // NOI18N
-        labelCopyright.setText("Claimatic Test Automation Framework.      ");
+        labelCopyright.setText("AnyAUTxl Test Automation Framework.      ");
 
         //set images
         logoAnyAUT.setIcon(new javax.swing.ImageIcon("logo.png")); // NOI18N
 
-        imageBot.setIcon(new javax.swing.ImageIcon("side2.jpg")); // NOI18N
+        imageBot.setIcon(new javax.swing.ImageIcon("anyautBot-small.png")); // NOI18N
 
         imagePoweredBy.setIcon(new javax.swing.ImageIcon("powered by-small.png")); // NOI18N
 
@@ -88,7 +88,7 @@ public class UICode extends javax.swing.JFrame {
         
         String vTT3 =
                 "<html><p><font color=\"#000\" " +
-                "size=\"18\" face=\"Calibri\">Claimatic Regression Excel" +
+                "size=\"18\" face=\"Calibri\">AnyAUTxl Regression Excel" +
                 "</font></p></html>";
        
         String vTT4 =
@@ -102,7 +102,7 @@ public class UICode extends javax.swing.JFrame {
 
   		vTestRunName.setText(currentDateTime);
   		vUserName.setText("User");
-  		vRunExcelPath.setText(System.getProperty("user.dir")+"\\Demo_Small.xls");
+  		vRunExcelPath.setText(System.getProperty("user.dir")+"\\Demo.xls");
   		vBrowserTimeout.setText("10");
         vTestRunName.setToolTipText(vTT1);
         vUserName.setToolTipText(vTT2);

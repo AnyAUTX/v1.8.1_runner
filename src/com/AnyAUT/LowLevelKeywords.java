@@ -201,7 +201,7 @@ public class LowLevelKeywords {
 			byType = By.xpath(ElementLocator);
 		}
 		try {	
-			((JavascriptExecutor)driver).executeScript("arguments[0].style.border='3px solid " + "green" +"'", driver.findElement(byType));
+			((JavascriptExecutor)driver).executeScript("arguments[0].style.border='3px solid " + "gold" +"'", driver.findElement(byType));
 		//	System.out.println(">>> Element Highlight Passed");
 		} catch (Exception e){
 		//	System.out.println(">>> Element Highlight Failed");	
