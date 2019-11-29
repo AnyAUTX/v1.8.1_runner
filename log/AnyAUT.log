@@ -22720,3 +22720,1370 @@ Your email has been queued for sending, and will be sent in a couple minutes.
 2019-11-18 10:17:07,953 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: id ,Element ID: page-title ,Test Data: Search
 2019-11-18 10:17:08,017 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: name ,Element ID: search_number ,Test Data: 123
 2019-11-18 10:17:08,144 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: id ,Element ID: btn-search-view-filters-save ,Test Data: -
+2019-11-28 22:49:18,563 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_null/TestRun_null.xls
+2019-11-28 22:49:18,568 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_null/RunResult.xls
+2019-11-28 22:49:18,593 - com.AnyAUT.ExecuteTest -ERROR - Exception in readTestData methodFileNotFoundException
+2019-11-28 22:50:08,611 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_null/TestRun_null.xls
+2019-11-28 22:50:08,614 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_null/RunResult.xls
+2019-11-28 22:50:08,620 - com.AnyAUT.ExecuteTest -ERROR - Exception in readTestData methodFileNotFoundException
+2019-11-29 03:03:05,825 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_null/TestRun_null.xls
+2019-11-29 03:03:05,831 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_null/RunResult.xls
+2019-11-29 03:03:05,839 - com.AnyAUT.ExecuteTest -ERROR - Exception in readTestData methodFileNotFoundException
+2019-11-29 03:03:39,667 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 03:03:39,670 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0303/TestRun_29Nov_0303.xls
+2019-11-29 03:03:40,468 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 03:03:40,469 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 03:03:40,469 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 03:03:40,469 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 03:03:40,472 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 03:03:40,474 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 03:03:41,091 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0303/TestRun_29Nov_0303.xls
+2019-11-29 03:03:41,092 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0303/RunResult.xls
+2019-11-29 03:03:41,094 - com.AnyAUT.ExecuteTest -INFO - Rows are 28
+2019-11-29 03:03:41,095 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 03:03:41,101 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 03:03:55,077 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 03:04:04,791 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: Karthik_sa
+2019-11-29 03:04:04,960 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 03:04:05,191 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 03:04:05,319 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 03:04:25,321 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 03:04:31,391 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:04:32,168 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 03:04:38,215 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:04:38,891 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:04:44,927 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:04:45,559 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:04:51,645 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:04:52,384 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 03:04:58,481 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:04:59,118 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 03:04:59,135 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:05:09,136 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:05:37,197 - com.AnyAUT.ExecuteTest -ERROR - Error : WebDriverException
+2019-11-29 03:05:51,224 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:06:44,427 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 03:06:44,434 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0306/TestRun_29Nov_0306.xls
+2019-11-29 03:06:45,328 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 03:06:45,329 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 03:06:45,329 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 03:06:45,330 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 03:06:45,332 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 03:06:45,336 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 03:06:46,021 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0306/TestRun_29Nov_0306.xls
+2019-11-29 03:06:46,021 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0306/RunResult.xls
+2019-11-29 03:06:46,024 - com.AnyAUT.ExecuteTest -INFO - Rows are 28
+2019-11-29 03:06:46,024 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 03:06:46,030 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 03:06:57,211 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 03:06:58,452 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 03:06:58,603 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 03:06:58,786 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 03:06:58,889 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 03:07:18,890 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 03:07:18,985 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 03:07:19,585 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 03:07:19,733 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 03:07:19,733 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:07:19,818 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 03:07:19,819 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:07:19,867 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 03:07:19,868 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 03:07:20,027 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 03:07:20,081 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:07:30,081 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:07:30,190 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 03:07:30,191 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:07:30,313 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 03:07:30,361 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 03:07:30,362 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 03:07:30,481 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:07:40,481 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 03:07:40,578 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net/administration/manage#/administration/manage/index
+2019-11-29 03:07:40,646 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:07:50,646 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:07:55,788 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 03:07:55,871 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 03:07:55,872 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 03:07:55,967 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:08:05,968 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Claimatic API Documentation')] ,Test Data: -
+2019-11-29 03:08:06,025 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 03:12:31,527 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 03:12:31,530 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0312/TestRun_29Nov_0312.xls
+2019-11-29 03:12:32,227 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 03:12:32,228 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 03:12:32,228 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 03:12:32,228 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 03:12:32,230 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 03:12:32,232 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 03:12:32,904 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0312/TestRun_29Nov_0312.xls
+2019-11-29 03:12:32,905 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0312/RunResult.xls
+2019-11-29 03:12:32,907 - com.AnyAUT.ExecuteTest -INFO - Rows are 31
+2019-11-29 03:12:32,907 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 03:12:32,913 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 03:12:43,681 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 03:12:45,849 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 03:12:46,147 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 03:12:46,354 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 03:12:46,527 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 03:13:06,527 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 03:13:06,626 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 03:13:07,228 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 03:13:07,359 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 03:13:07,360 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:13:07,443 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 03:13:07,443 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:13:07,483 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 03:13:07,484 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 03:13:07,673 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 03:13:07,759 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:13:17,760 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:13:17,851 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 03:13:17,851 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:13:17,954 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 03:13:17,997 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 03:13:17,998 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 03:13:18,104 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:13:28,104 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:13:28,162 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 03:13:32,245 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:13:32,310 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:13:42,311 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:13:48,480 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:13:48,825 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 03:13:54,898 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:13:55,300 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 03:14:01,420 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:14:01,771 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:14:11,772 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:14:11,851 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Claimatic API Documentation')] ,Test Data: -
+2019-11-29 03:14:11,903 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:14:12,007 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 03:23:22,786 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 03:23:22,789 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0323/TestRun_29Nov_0323.xls
+2019-11-29 03:23:23,504 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 03:23:23,504 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 03:23:23,505 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 03:23:23,505 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 03:23:23,507 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 03:23:23,509 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 03:23:24,154 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0323/TestRun_29Nov_0323.xls
+2019-11-29 03:23:24,154 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0323/RunResult.xls
+2019-11-29 03:23:24,157 - com.AnyAUT.ExecuteTest -INFO - Rows are 30
+2019-11-29 03:23:24,157 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 03:23:24,163 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 03:23:34,877 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 03:23:36,816 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 03:23:37,055 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 03:23:37,331 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 03:23:37,461 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 03:23:57,461 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 03:23:57,548 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 03:23:58,184 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 03:23:58,312 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 03:23:58,313 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:23:58,401 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 03:23:58,402 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 03:23:58,439 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 03:23:58,440 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 03:23:58,657 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 03:23:58,726 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:24:08,727 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:24:08,781 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 03:24:08,781 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:24:08,857 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 03:24:08,925 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 03:24:08,925 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 03:24:09,031 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:24:19,033 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:24:19,054 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 03:24:23,227 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 03:24:23,228 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:24:23,255 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:24:33,256 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 03:24:39,356 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:24:39,714 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 03:24:45,814 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:24:46,145 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 03:24:52,231 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 03:24:52,598 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 03:25:02,599 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:25:02,701 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 03:25:02,722 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 11:58:31,079 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 11:58:31,085 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_1158/TestRun_29Nov_1158.xls
+2019-11-29 11:58:31,947 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 11:58:31,947 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 11:58:31,948 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 11:58:31,948 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 11:58:31,950 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 11:58:31,959 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 11:58:33,049 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1158/TestRun_29Nov_1158.xls
+2019-11-29 11:58:33,049 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1158/RunResult.xls
+2019-11-29 11:58:33,051 - com.AnyAUT.ExecuteTest -INFO - Rows are 30
+2019-11-29 11:58:33,051 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 11:58:33,058 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 11:58:44,457 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 11:58:49,794 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 11:58:50,001 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 11:58:50,131 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 11:58:50,268 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 11:59:10,270 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 11:59:10,393 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 11:59:10,959 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 11:59:11,086 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 11:59:11,086 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 11:59:11,173 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 11:59:11,173 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 11:59:11,212 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 11:59:11,212 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 11:59:11,414 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 11:59:11,506 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 11:59:21,506 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 11:59:21,568 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 11:59:21,568 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 11:59:21,653 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 11:59:21,698 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 11:59:21,698 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 11:59:21,855 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 11:59:31,857 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 11:59:31,878 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 12:01:03,309 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 12:01:03,325 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:01:07,343 - com.AnyAUT.ExecuteTest -ERROR - Error : WebDriverException
+2019-11-29 12:01:07,346 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:01:17,347 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:01:17,371 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 12:01:17,380 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:01:17,391 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 12:01:17,398 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:01:17,411 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 12:01:17,415 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:01:27,417 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:01:31,434 - com.AnyAUT.ExecuteTest -ERROR - Error : WebDriverException
+2019-11-29 12:01:31,444 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:01:31,686 - com.AnyAUT.ExecuteTest -ERROR - Error : WebDriverException
+2019-11-29 12:01:31,695 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 12:05:53,345 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 12:05:53,348 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_1205/TestRun_29Nov_1205.xls
+2019-11-29 12:05:54,171 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 12:05:54,172 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 12:05:54,172 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 12:05:54,172 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 12:05:54,174 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 12:05:54,177 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 12:05:54,763 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1205/TestRun_29Nov_1205.xls
+2019-11-29 12:05:54,763 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1205/RunResult.xls
+2019-11-29 12:05:54,766 - com.AnyAUT.ExecuteTest -INFO - Rows are 31
+2019-11-29 12:05:54,766 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 12:05:54,772 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 12:06:05,462 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 12:06:11,846 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 12:06:12,008 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 12:06:12,189 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 12:06:12,336 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 12:06:32,337 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 12:06:32,392 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 12:06:32,939 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 12:06:33,039 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:06:33,039 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:06:33,132 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:06:33,133 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:06:33,181 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 12:06:33,182 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 12:06:33,347 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 12:06:33,393 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:06:43,394 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:06:43,517 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:06:43,518 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:06:43,626 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:06:43,672 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:06:43,673 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:06:43,790 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:06:53,791 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:06:57,850 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 12:06:57,851 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:06:57,851 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 12:06:57,851 - com.AnyAUT.ExecuteTest -INFO - {null=CDwindow-FEAE054660920DF255F2B3CA0ADF9BEA}
+2019-11-29 12:06:57,851 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 12:06:57,852 - com.AnyAUT.ExecuteTest -INFO - inside hashmap if{null=CDwindow-FEAE054660920DF255F2B3CA0ADF9BEA}
+2019-11-29 12:06:57,852 - com.AnyAUT.ExecuteTest -INFO - Key : null Value : CDwindow-FEAE054660920DF255F2B3CA0ADF9BEA
+2019-11-29 12:06:57,852 - com.AnyAUT.ExecuteTest -INFO - output is hashmap
+2019-11-29 12:06:57,852 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 12:06:57,853 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 12:06:57,893 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 12:07:26,994 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:07:26,994 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:07:27,009 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:07:37,009 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:07:43,128 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:07:43,561 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:07:49,631 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:07:50,007 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:07:56,091 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:07:56,457 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:08:06,457 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:08:06,492 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:08:06,511 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 12:12:43,935 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 12:12:43,938 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_1212/TestRun_29Nov_1212.xls
+2019-11-29 12:12:44,677 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 12:12:44,678 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 12:12:44,679 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 12:12:44,679 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 12:12:44,682 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 12:12:44,684 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 12:12:45,342 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1212/TestRun_29Nov_1212.xls
+2019-11-29 12:12:45,342 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1212/RunResult.xls
+2019-11-29 12:12:45,345 - com.AnyAUT.ExecuteTest -INFO - Rows are 31
+2019-11-29 12:12:45,345 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 12:12:45,350 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 12:12:56,207 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 12:13:04,017 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 12:13:04,198 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 12:13:04,387 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 12:13:04,538 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 12:13:24,540 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 12:13:24,626 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 12:13:25,227 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 12:13:25,324 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:13:25,325 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:13:25,417 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:13:25,417 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:13:25,464 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 12:13:25,464 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 12:13:25,619 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 12:13:25,733 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:13:35,734 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:13:35,847 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:13:35,848 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:13:35,937 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:13:35,985 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:13:35,986 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:13:36,133 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:13:46,134 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:13:50,208 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 12:13:50,209 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:13:50,209 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 12:13:50,209 - com.AnyAUT.ExecuteTest -INFO - {parentWindow=CDwindow-6957C5C58E0897517CD1846F916CBA41, childWindow=CDwindow-89B281AF8E7BCD7BC9950003FC84177A}
+2019-11-29 12:13:50,209 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 12:13:50,209 - com.AnyAUT.ExecuteTest -INFO - inside hashmap if{parentWindow=CDwindow-6957C5C58E0897517CD1846F916CBA41, childWindow=CDwindow-89B281AF8E7BCD7BC9950003FC84177A}
+2019-11-29 12:13:50,210 - com.AnyAUT.ExecuteTest -INFO - Key : parentWindow Value : CDwindow-6957C5C58E0897517CD1846F916CBA41
+2019-11-29 12:13:50,210 - com.AnyAUT.ExecuteTest -INFO - Key : childWindow Value : CDwindow-89B281AF8E7BCD7BC9950003FC84177A
+2019-11-29 12:13:50,210 - com.AnyAUT.ExecuteTest -INFO - output is hashmap
+2019-11-29 12:13:50,211 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 12:13:50,211 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 12:13:50,257 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 12:14:55,543 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:14:55,543 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:14:55,584 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:15:05,586 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:15:11,717 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:15:12,104 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:15:18,201 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:15:18,590 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:15:24,713 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:15:25,036 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:15:35,038 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:15:35,096 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:15:35,117 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 12:17:17,037 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 12:17:17,041 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_1216/TestRun_29Nov_1216.xls
+2019-11-29 12:17:17,875 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 12:17:17,876 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 12:17:17,877 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 12:17:17,877 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 12:17:17,879 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 12:17:17,882 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 12:17:18,578 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1216/TestRun_29Nov_1216.xls
+2019-11-29 12:17:18,578 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1216/RunResult.xls
+2019-11-29 12:17:18,579 - com.AnyAUT.ExecuteTest -INFO - Rows are 31
+2019-11-29 12:17:18,580 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 12:17:18,586 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 12:17:29,520 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 12:17:36,054 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 12:17:36,236 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 12:17:36,433 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 12:17:36,561 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 12:17:56,563 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 12:17:56,662 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 12:17:57,253 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 12:17:57,386 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:17:57,387 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:17:57,468 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:17:57,468 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:17:57,510 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 12:17:57,510 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 12:17:57,662 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 12:17:57,744 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:18:07,745 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:18:07,782 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:18:07,783 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:18:12,889 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:18:12,930 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:18:12,930 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:18:13,079 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:18:23,080 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:18:23,125 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 12:18:23,126 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:18:23,126 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 12:18:23,127 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 12:18:23,127 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 12:18:23,128 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 12:18:23,128 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 12:18:27,161 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 12:18:33,240 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:18:33,620 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:18:33,649 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:18:43,651 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:18:43,730 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:18:43,811 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:18:43,811 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:18:43,915 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:18:53,916 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:18:53,941 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:18:57,990 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 12:32:13,783 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 12:32:13,785 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_1231/TestRun_29Nov_1231.xls
+2019-11-29 12:32:14,536 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 12:32:14,537 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 12:32:14,537 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 12:32:14,537 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 12:32:14,539 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 12:32:14,540 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 12:32:15,236 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1231/TestRun_29Nov_1231.xls
+2019-11-29 12:32:15,237 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_1231/RunResult.xls
+2019-11-29 12:32:15,239 - com.AnyAUT.ExecuteTest -INFO - Rows are 31
+2019-11-29 12:32:15,239 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 12:32:15,245 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 12:32:26,062 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 12:32:29,875 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 12:32:30,041 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 12:32:30,225 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 12:32:30,347 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 12:32:50,348 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 12:32:50,508 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 12:32:51,129 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 12:32:51,272 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:32:51,273 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:32:51,363 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 12:32:51,364 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 12:32:51,405 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 12:32:51,405 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 12:32:51,606 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 12:32:51,685 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:33:01,686 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:33:01,777 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:33:01,778 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:33:01,892 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:33:01,938 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:33:01,938 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 12:33:02,058 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:33:12,060 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:33:12,102 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 12:33:12,105 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:33:12,105 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 12:33:12,106 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 12:33:12,107 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 12:33:12,107 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 12:33:12,108 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 12:33:16,207 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 12:33:22,287 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 12:33:22,702 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:33:22,715 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:33:32,716 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 12:33:32,852 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:33:32,925 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 12:33:32,925 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 12:33:33,036 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 12:33:43,038 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:33:43,061 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 12:33:47,114 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 13:09:58,598 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 13:09:58,601 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0109/TestRun_29Nov_0109.xls
+2019-11-29 13:09:59,347 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 13:09:59,348 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 13:09:59,348 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 13:09:59,348 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 13:09:59,350 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 13:09:59,351 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 13:10:00,102 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0109/TestRun_29Nov_0109.xls
+2019-11-29 13:10:00,102 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0109/RunResult.xls
+2019-11-29 13:10:00,104 - com.AnyAUT.ExecuteTest -INFO - Rows are 32
+2019-11-29 13:10:00,105 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 13:10:00,111 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 13:10:10,959 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 13:10:13,493 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 13:10:13,726 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 13:10:13,925 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 13:10:14,050 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 13:10:34,050 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 13:10:34,150 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 13:10:34,767 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 13:10:34,934 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:10:34,934 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:10:35,018 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:10:35,019 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:10:35,064 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 13:10:35,064 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 13:10:35,284 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 13:10:35,420 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:10:45,420 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:10:45,518 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:10:45,519 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:10:45,597 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:10:45,640 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:10:45,641 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:10:45,784 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:10:55,784 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:10:55,840 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 13:11:06,578 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:11:06,579 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:11:06,627 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:11:06,658 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:11:06,667 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:11:16,667 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:11:16,686 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:11:16,694 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:11:16,711 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:11:16,717 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:11:16,728 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:11:16,734 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:11:26,734 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:11:26,744 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:11:26,748 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:11:26,754 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:11:26,758 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:11:26,769 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:11:26,777 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 13:14:36,112 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 13:14:36,115 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0114/TestRun_29Nov_0114.xls
+2019-11-29 13:14:36,850 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 13:14:36,850 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 13:14:36,851 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 13:14:36,851 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 13:14:36,854 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 13:14:36,857 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 13:14:37,591 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0114/TestRun_29Nov_0114.xls
+2019-11-29 13:14:37,591 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0114/RunResult.xls
+2019-11-29 13:14:37,593 - com.AnyAUT.ExecuteTest -INFO - Rows are 32
+2019-11-29 13:14:37,593 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 13:14:37,599 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 13:14:48,470 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 13:14:51,818 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 13:14:52,141 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 13:14:52,372 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 13:14:52,458 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 13:15:12,459 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 13:15:12,586 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 13:15:13,200 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 13:15:13,356 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:15:13,357 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:15:13,446 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:15:13,447 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:15:13,491 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 13:15:13,491 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 13:15:13,693 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 13:15:13,782 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:15:23,783 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:15:23,887 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:15:23,888 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:15:23,965 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:15:24,016 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:15:24,016 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:15:24,173 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:15:34,173 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:15:34,234 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 13:15:40,148 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:15:40,149 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:15:40,178 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:15:40,209 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:15:40,218 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:15:50,220 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:15:50,240 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:15:50,250 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:15:50,269 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:15:50,278 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:15:50,290 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:15:50,295 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:16:00,295 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:16:00,316 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:16:00,325 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:16:00,339 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:16:00,349 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:16:00,369 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:16:00,378 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 13:24:52,744 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 13:24:52,748 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0124/TestRun_29Nov_0124.xls
+2019-11-29 13:24:53,490 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 13:24:53,491 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 13:24:53,491 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 13:24:53,491 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 13:24:53,493 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 13:24:53,495 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 13:24:54,091 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0124/TestRun_29Nov_0124.xls
+2019-11-29 13:24:54,092 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0124/RunResult.xls
+2019-11-29 13:24:54,094 - com.AnyAUT.ExecuteTest -INFO - Rows are 34
+2019-11-29 13:24:54,094 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 13:24:54,100 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 13:25:04,837 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 13:25:10,958 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 13:25:11,110 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 13:25:11,282 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 13:25:11,363 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 13:25:31,365 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 13:25:31,456 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 13:25:32,086 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 13:25:32,210 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:25:32,210 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:25:32,298 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:25:32,299 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:25:32,341 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 13:25:32,342 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 13:25:32,535 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 13:25:32,642 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:25:42,643 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:25:42,762 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:25:42,762 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:25:42,853 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:25:42,896 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:25:42,896 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:25:43,046 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:25:53,047 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:25:53,101 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 13:26:03,904 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:26:03,904 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:26:03,929 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:26:13,929 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:26:13,978 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:26:13,993 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:26:23,995 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:26:24,014 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:26:24,021 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:26:24,032 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:26:24,039 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:26:24,057 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:26:24,061 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:26:34,062 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:26:34,085 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:26:34,098 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:26:44,098 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:26:44,106 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:26:44,109 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:26:44,115 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:26:44,118 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 13:42:47,204 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 13:42:47,207 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0142/TestRun_29Nov_0142.xls
+2019-11-29 13:42:47,957 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 13:42:47,957 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 13:42:47,958 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 13:42:47,958 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 13:42:47,962 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 13:42:47,964 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 13:42:48,635 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0142/TestRun_29Nov_0142.xls
+2019-11-29 13:42:48,636 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0142/RunResult.xls
+2019-11-29 13:42:48,638 - com.AnyAUT.ExecuteTest -INFO - Rows are 35
+2019-11-29 13:42:48,638 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 13:42:48,670 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 13:42:59,396 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 13:43:01,986 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 13:43:02,176 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 13:43:02,355 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 13:43:02,498 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 13:43:22,500 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 13:43:22,592 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 13:43:23,168 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 13:43:23,286 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:43:23,287 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:43:23,372 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:43:23,373 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 13:43:23,416 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 13:43:23,416 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 13:43:23,609 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 13:43:23,696 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 13:43:33,698 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:43:33,746 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:43:33,747 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:43:33,907 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:43:33,949 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 13:43:33,949 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 13:43:34,065 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 13:43:38,066 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:43:38,123 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 13:43:58,662 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 13:43:58,662 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:43:58,687 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 13:44:02,689 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:44:02,733 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:44:02,741 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 13:44:06,742 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 13:44:06,761 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:44:06,771 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:44:06,782 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:44:06,788 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 13:44:06,800 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:44:06,805 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 13:44:10,806 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:44:10,828 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:44:10,838 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 13:44:14,840 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:44:14,857 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:44:14,865 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 13:44:18,867 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 13:44:18,886 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 13:44:18,896 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 14:04:29,408 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 14:04:29,411 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0204/TestRun_29Nov_0204.xls
+2019-11-29 14:04:30,207 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 14:04:30,207 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 14:04:30,208 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 14:04:30,208 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 14:04:30,210 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 14:04:30,212 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 14:04:30,990 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0204/TestRun_29Nov_0204.xls
+2019-11-29 14:04:30,991 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0204/RunResult.xls
+2019-11-29 14:04:30,994 - com.AnyAUT.ExecuteTest -INFO - Rows are 35
+2019-11-29 14:04:30,995 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 14:04:31,000 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 14:04:42,048 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 14:04:48,841 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 14:04:49,008 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 14:04:49,193 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 14:04:49,312 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 14:05:09,314 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 14:05:09,391 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 14:05:10,037 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 14:05:10,173 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:05:10,173 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:05:10,261 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:05:10,261 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:05:10,304 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 14:05:10,305 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 14:05:10,453 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 14:05:10,494 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 14:05:20,495 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:05:20,609 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:05:20,610 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:05:20,711 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:05:20,784 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:05:20,784 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:05:20,970 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:05:24,971 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:05:24,995 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 14:05:40,654 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:05:40,654 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:05:40,707 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:05:44,708 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:05:44,751 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:05:44,759 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:05:48,760 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:05:48,779 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:05:48,789 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:05:48,804 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:05:48,809 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:05:48,818 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:05:48,824 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:05:52,825 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:05:52,831 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:05:52,836 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:05:56,838 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:05:56,858 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:05:56,869 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:06:00,871 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:06:00,881 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:06:00,890 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 14:08:00,293 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 14:08:00,297 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0207/TestRun_29Nov_0207.xls
+2019-11-29 14:08:01,011 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 14:08:01,011 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 14:08:01,012 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 14:08:01,012 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 14:08:01,016 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 14:08:01,018 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 14:08:01,696 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0207/TestRun_29Nov_0207.xls
+2019-11-29 14:08:01,696 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0207/RunResult.xls
+2019-11-29 14:08:01,699 - com.AnyAUT.ExecuteTest -INFO - Rows are 35
+2019-11-29 14:08:01,699 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 14:08:01,704 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 14:08:12,500 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 14:08:18,242 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 14:08:18,481 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 14:08:18,653 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 14:08:18,797 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 14:08:38,798 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 14:08:38,889 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 14:08:39,497 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 14:08:39,623 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:08:39,623 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:08:39,728 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:08:39,728 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:08:39,771 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 14:08:39,772 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 14:08:39,921 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 14:08:40,013 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 14:08:50,015 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:08:50,098 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:08:50,098 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:08:50,176 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:08:50,220 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:08:50,221 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:08:50,347 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:08:54,348 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:08:54,399 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 14:09:29,377 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:09:29,378 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:09:29,430 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:09:33,432 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:09:33,443 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:09:33,449 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:09:37,450 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:09:37,470 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:09:37,481 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:09:37,499 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:09:37,504 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:09:37,511 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:09:37,515 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:09:41,515 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:09:41,525 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:09:41,534 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:09:45,536 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:09:45,552 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:09:45,562 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:09:49,563 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:09:49,573 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:09:49,582 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 14:12:31,384 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 14:12:31,386 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0212/TestRun_29Nov_0212.xls
+2019-11-29 14:12:32,174 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 14:12:32,174 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 14:12:32,175 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 14:12:32,175 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 14:12:32,176 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 14:12:32,178 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 14:12:32,804 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0212/TestRun_29Nov_0212.xls
+2019-11-29 14:12:32,805 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0212/RunResult.xls
+2019-11-29 14:12:32,808 - com.AnyAUT.ExecuteTest -INFO - Rows are 35
+2019-11-29 14:12:32,808 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 14:12:32,814 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 14:12:43,488 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 14:12:48,090 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 14:12:48,261 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 14:12:48,448 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 14:12:48,581 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 14:13:08,582 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 14:13:08,699 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 14:13:09,335 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 14:13:09,468 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:13:09,468 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:13:09,550 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:13:09,551 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:13:09,591 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 14:13:09,591 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 14:13:09,751 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 14:13:09,835 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 14:13:19,838 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:13:19,926 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:13:19,927 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:13:20,013 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:13:20,089 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:13:20,090 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:13:20,213 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:13:24,214 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:13:24,258 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 14:14:06,444 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:14:06,445 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:14:06,471 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:14:10,472 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:14:10,504 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:14:10,514 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:14:14,515 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:14:14,534 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:14:14,544 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:14:14,555 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:14:14,560 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:14:14,571 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:14:14,576 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:14:18,577 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:14:18,586 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:14:18,595 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:14:22,597 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:14:22,608 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:14:22,615 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:14:26,616 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:14:26,627 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:14:26,635 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 14:25:25,364 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 14:25:25,367 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0224/TestRun_29Nov_0224.xls
+2019-11-29 14:25:26,131 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 14:25:26,132 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 14:25:26,132 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 14:25:26,133 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 14:25:26,135 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 14:25:26,137 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 14:25:26,905 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0224/TestRun_29Nov_0224.xls
+2019-11-29 14:25:26,905 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0224/RunResult.xls
+2019-11-29 14:25:26,915 - com.AnyAUT.ExecuteTest -INFO - Rows are 37
+2019-11-29 14:25:26,916 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 14:25:26,921 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 14:25:37,786 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 14:25:42,845 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 14:25:43,035 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 14:25:43,205 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 14:25:43,345 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 14:26:03,347 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 14:26:03,448 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 14:26:04,044 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 14:26:04,176 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:26:04,177 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:26:04,279 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:26:04,280 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:26:04,351 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 14:26:04,352 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 14:26:04,535 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 14:26:04,621 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 14:26:14,622 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:26:14,707 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:26:14,708 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:26:14,799 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:26:14,846 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:26:14,846 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:26:14,976 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:26:18,978 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:26:23,303 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 14:26:23,304 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:26:23,304 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 14:26:23,305 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 14:26:23,305 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 14:26:23,305 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 14:26:23,306 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 14:26:23,339 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 14:26:41,025 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:26:41,026 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:26:41,051 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:26:45,053 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:26:45,094 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:26:45,100 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:26:49,100 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:26:49,110 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:26:49,113 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:26:49,119 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:26:49,131 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:26:49,155 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:26:49,160 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:26:53,161 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:26:53,174 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:26:53,180 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:26:53,191 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:26:53,196 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:26:57,196 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:26:57,208 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:26:57,215 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:27:01,216 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:27:01,238 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:27:01,246 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 14:42:26,170 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 14:42:26,173 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0242/TestRun_29Nov_0242.xls
+2019-11-29 14:42:26,955 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 14:42:26,956 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 14:42:26,956 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 14:42:26,957 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 14:42:26,960 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 14:42:26,963 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 14:42:27,729 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0242/TestRun_29Nov_0242.xls
+2019-11-29 14:42:27,729 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0242/RunResult.xls
+2019-11-29 14:42:27,732 - com.AnyAUT.ExecuteTest -INFO - Rows are 37
+2019-11-29 14:42:27,732 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 14:42:27,737 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 14:42:38,682 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 14:42:47,276 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 14:42:47,470 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 14:42:47,624 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 14:42:47,793 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 14:43:07,794 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 14:43:07,901 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 14:43:08,527 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 14:43:08,670 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:43:08,670 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:43:08,764 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:43:08,765 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:43:08,810 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 14:43:08,810 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 14:43:08,971 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 14:43:09,026 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 14:43:19,028 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:43:19,163 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:43:19,164 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:43:19,249 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:43:19,327 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:43:19,327 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:43:19,479 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:43:23,480 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:27,564 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 14:43:27,565 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:27,566 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 14:43:27,566 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 14:43:27,566 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 14:43:27,566 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 14:43:27,567 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 14:43:27,577 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 14:43:33,666 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchElementException
+2019-11-29 14:43:34,124 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:34,150 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:43:38,152 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:38,174 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:38,182 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:43:42,184 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:43:42,194 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:42,198 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:43:42,205 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:42,209 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:43:42,215 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:42,219 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:43:46,220 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:46,235 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:46,242 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:46,256 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:46,262 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:43:50,262 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:50,276 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:50,286 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:43:54,288 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:43:54,299 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchWindowException
+2019-11-29 14:43:54,302 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 14:56:08,228 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 14:56:08,231 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0255/TestRun_29Nov_0255.xls
+2019-11-29 14:56:08,967 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 14:56:08,968 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 14:56:08,969 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 14:56:08,969 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 14:56:08,972 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 14:56:08,974 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 14:56:09,704 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0255/TestRun_29Nov_0255.xls
+2019-11-29 14:56:09,704 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0255/RunResult.xls
+2019-11-29 14:56:09,707 - com.AnyAUT.ExecuteTest -INFO - Rows are 37
+2019-11-29 14:56:09,708 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 14:56:09,714 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 14:56:20,568 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 14:56:23,169 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 14:56:23,364 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 14:56:23,563 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 14:56:23,701 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 14:56:43,702 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 14:56:43,832 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 14:56:44,462 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 14:56:44,571 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:56:44,572 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:56:44,691 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:56:44,691 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 14:56:44,753 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 14:56:44,753 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 14:56:44,910 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 14:56:45,013 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 14:56:55,015 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:56:55,106 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:56:55,106 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:56:55,205 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:56:55,262 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:56:55,263 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 14:56:55,444 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:56:59,446 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:56:59,488 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 14:56:59,490 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:56:59,491 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 14:56:59,491 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 14:56:59,493 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 14:56:59,494 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 14:56:59,495 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 14:56:59,512 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 14:57:27,953 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 14:57:27,954 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:57:27,998 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:57:31,999 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:57:32,018 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:57:36,019 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 14:57:36,226 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:57:36,285 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 14:57:36,285 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 14:57:36,413 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:57:40,414 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:57:40,450 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 14:57:40,451 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:57:40,452 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 14:57:40,453 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 14:57:40,454 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 14:57:40,454 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 14:57:40,455 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 14:57:40,472 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:57:44,473 - com.AnyAUT.ExecuteTest -INFO - KW: closepopupWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:57:48,581 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 14:57:52,582 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 14:57:52,593 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 15:01:27,317 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 15:01:27,319 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0301/TestRun_29Nov_0301.xls
+2019-11-29 15:01:28,061 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 15:01:28,062 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 15:01:28,062 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 15:01:28,063 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 15:01:28,064 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 15:01:28,066 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 15:01:28,739 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0301/TestRun_29Nov_0301.xls
+2019-11-29 15:01:28,740 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0301/RunResult.xls
+2019-11-29 15:01:28,742 - com.AnyAUT.ExecuteTest -INFO - Rows are 37
+2019-11-29 15:01:28,742 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 15:01:28,747 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 15:01:39,301 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 15:01:45,736 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 15:01:45,902 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 15:01:46,082 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 15:01:46,186 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 15:02:06,188 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 15:02:06,309 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 15:02:06,946 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 15:02:07,045 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:02:07,046 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:02:07,131 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:02:07,132 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:02:07,174 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 15:02:07,174 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 15:02:07,365 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 15:02:07,466 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 15:02:17,466 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:02:17,560 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:02:17,560 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:02:17,635 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:02:17,682 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:02:17,683 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:02:17,793 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:02:21,794 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:02:21,814 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 15:02:21,814 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:02:21,815 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 15:02:21,815 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 15:02:21,815 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 15:02:21,815 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 15:02:21,816 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 15:02:21,826 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 15:02:45,198 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:02:45,199 - com.AnyAUT.ExecuteTest -INFO - KW: closeLatestWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:02:45,383 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:02:49,384 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:02:49,422 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:02:49,428 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:02:53,430 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:02:53,446 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:02:53,454 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:02:53,470 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:02:53,476 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:02:53,485 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:02:53,490 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:02:57,491 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:02:57,499 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:02:57,504 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:02:57,509 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:02:57,512 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:08:28,782 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 15:08:28,785 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0308/TestRun_29Nov_0308.xls
+2019-11-29 15:08:29,503 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 15:08:29,503 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 15:08:29,504 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 15:08:29,504 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 15:08:29,506 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 15:08:29,508 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 15:08:30,169 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0308/TestRun_29Nov_0308.xls
+2019-11-29 15:08:30,169 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0308/RunResult.xls
+2019-11-29 15:08:30,173 - com.AnyAUT.ExecuteTest -INFO - Rows are 37
+2019-11-29 15:08:30,174 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 15:08:30,180 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 15:08:41,114 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 15:08:44,279 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 15:08:44,435 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 15:08:44,614 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 15:08:44,749 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 15:09:04,751 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 15:09:04,804 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 15:09:05,465 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 15:09:05,601 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:09:05,601 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:09:05,686 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:09:05,686 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:09:05,728 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 15:09:05,729 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 15:09:05,930 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 15:09:05,979 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 15:09:15,979 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:09:16,067 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:09:16,068 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:09:16,145 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:09:16,190 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:09:16,191 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:09:16,369 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:09:20,370 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:09:20,412 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 15:09:20,414 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:09:20,414 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 15:09:20,415 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 15:09:20,417 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 15:09:20,417 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 15:09:20,419 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 15:09:20,439 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 15:09:42,358 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:09:42,358 - com.AnyAUT.ExecuteTest -INFO - KW: closeLatestWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:09:42,532 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:09:46,533 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:09:46,567 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:09:46,572 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:09:50,573 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:09:50,590 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:09:50,597 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:09:50,612 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:09:50,619 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:09:50,633 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:09:50,641 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:09:54,643 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:09:54,653 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:09:54,664 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:09:54,670 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:09:54,674 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:09:58,675 - com.AnyAUT.ExecuteTest -INFO - KW: closeLatestWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:09:58,686 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:09:58,696 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:10:02,697 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:10:02,707 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:10:02,716 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 15:20:44,150 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 15:20:44,153 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0320/TestRun_29Nov_0320.xls
+2019-11-29 15:20:44,933 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 15:20:44,934 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 15:20:44,935 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 15:20:44,935 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 15:20:44,937 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 15:20:44,938 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 15:20:45,624 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0320/TestRun_29Nov_0320.xls
+2019-11-29 15:20:45,625 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0320/RunResult.xls
+2019-11-29 15:20:45,635 - com.AnyAUT.ExecuteTest -INFO - Rows are 37
+2019-11-29 15:20:45,635 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 15:20:45,641 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 15:20:56,197 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 15:21:06,994 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 15:21:07,178 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 15:21:07,363 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 15:21:07,486 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 15:21:27,487 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 15:21:27,581 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 15:21:28,192 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 15:21:28,332 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:21:28,332 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:21:28,418 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:21:28,418 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:21:28,459 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 15:21:28,459 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 15:21:28,612 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 15:21:28,749 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 15:21:38,751 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:21:38,849 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:21:38,849 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:21:38,947 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:21:39,047 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:21:39,047 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:21:39,212 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:21:43,212 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:21:43,251 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 15:21:43,253 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:21:43,254 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 15:21:43,255 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 15:21:43,256 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 15:21:43,257 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 15:21:43,258 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 15:21:43,270 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 15:22:05,572 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:22:05,573 - com.AnyAUT.ExecuteTest -INFO - KW: closeLatestWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:22:05,737 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:22:09,739 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:22:09,777 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:09,788 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:22:13,789 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:22:13,800 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:13,806 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:22:13,815 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:13,820 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:22:13,829 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:13,835 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:22:17,837 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:22:17,850 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:17,857 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:22:17,863 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:17,867 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:22:21,867 - com.AnyAUT.ExecuteTest -INFO - KW: closeLatestWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:22:21,878 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:21,886 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:22:25,887 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:22:25,897 - com.AnyAUT.ExecuteTest -ERROR - Error : NoSuchSessionException
+2019-11-29 15:22:25,904 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-11-29 15:26:07,760 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Client_project\1stNOV2019_CARRIER_SA_2.xls
+2019-11-29 15:26:07,762 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_29Nov_0325/TestRun_29Nov_0325.xls
+2019-11-29 15:26:08,486 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-11-29 15:26:08,486 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-11-29 15:26:08,487 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-11-29 15:26:08,487 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-11-29 15:26:08,489 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-11-29 15:26:08,491 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-11-29 15:26:09,154 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0325/TestRun_29Nov_0325.xls
+2019-11-29 15:26:09,154 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_29Nov_0325/RunResult.xls
+2019-11-29 15:26:09,157 - com.AnyAUT.ExecuteTest -INFO - Rows are 37
+2019-11-29 15:26:09,157 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-11-29 15:26:09,163 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-11-29 15:26:19,930 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://20005.claimatic.net
+2019-11-29 15:26:24,488 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-11-29 15:26:24,670 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-11-29 15:26:24,860 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-11-29 15:26:25,003 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 20
+2019-11-29 15:26:45,003 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='collapseOne-1']/div/p/a/strong ,Test Data: Welcome to Claimatic
+2019-11-29 15:26:45,102 - com.AnyAUT.ExecuteTest -INFO - test failed
+2019-11-29 15:26:45,717 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[@id='logo']//img ,Test Data: -
+2019-11-29 15:26:45,826 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:26:45,826 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:26:45,916 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:26:45,916 - com.AnyAUT.ExecuteTest -INFO - KW: getText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: -
+2019-11-29 15:26:45,957 - com.AnyAUT.ExecuteTest -INFO - Keyword getText: Text is Welcome Ram Kumar
+2019-11-29 15:26:45,957 - com.AnyAUT.ExecuteTest -INFO - KW: mouseHover ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //li[@id='first-li']/a/span ,Test Data: 3
+2019-11-29 15:26:46,164 - com.AnyAUT.ExecuteTest -INFO - KW: isTextPresent ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Unassigned Claims')] ,Test Data: -
+2019-11-29 15:26:46,241 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-11-29 15:26:56,243 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:26:56,329 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:26:56,330 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:26:56,408 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:26:56,485 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:26:56,485 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[1]/a ,Test Data: -
+2019-11-29 15:26:56,605 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:27:00,607 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:27:00,630 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 15:27:00,630 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:27:00,630 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 15:27:00,631 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 15:27:00,631 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 15:27:00,631 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 15:27:00,631 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 15:27:00,643 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //img[@class='attachment-medium size-medium'] ,Test Data: -
+2019-11-29 15:28:06,944 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-11-29 15:28:06,945 - com.AnyAUT.ExecuteTest -INFO - KW: closeLatestWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:28:06,970 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:28:10,971 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:28:10,989 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:28:14,991 - com.AnyAUT.ExecuteTest -INFO - KW: clickLink ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/a ,Test Data: -
+2019-11-29 15:28:15,194 - com.AnyAUT.ExecuteTest -INFO - KW: isEnabled ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:28:15,246 - com.AnyAUT.ExecuteTest -INFO - isEnabled Pass
+2019-11-29 15:28:15,247 - com.AnyAUT.ExecuteTest -INFO - KW: enterKeyboard ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //ul[@id='navMain']/li[6]/ul/li[2]/a ,Test Data: -
+2019-11-29 15:28:15,365 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:28:19,365 - com.AnyAUT.ExecuteTest -INFO - KW: getWindowNames ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:28:19,401 - com.AnyAUT.ExecuteTest -INFO - in switch case getwindownames:true
+2019-11-29 15:28:19,402 - com.AnyAUT.ExecuteTest -INFO - KW: switchToWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:28:19,403 - com.AnyAUT.ExecuteTest -INFO - inside set input flag
+2019-11-29 15:28:19,404 - com.AnyAUT.ExecuteTest -INFO - 
+2019-11-29 15:28:19,404 - com.AnyAUT.ExecuteTest -INFO - inside setInput method
+2019-11-29 15:28:19,405 - com.AnyAUT.ExecuteTest -INFO - new testData value 
+2019-11-29 15:28:19,406 - com.AnyAUT.ExecuteTest -INFO - inside set input flag clean flag false
+2019-11-29 15:28:19,422 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:28:23,425 - com.AnyAUT.ExecuteTest -INFO - KW: closeLatestWindow ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:28:27,528 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
+2019-11-29 15:28:31,528 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
+2019-11-29 15:28:31,545 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -

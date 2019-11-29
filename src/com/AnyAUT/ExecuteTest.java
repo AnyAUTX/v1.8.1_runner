@@ -47,9 +47,11 @@ public class ExecuteTest extends Utilities {
 	ExtentReports report;
 	ExtentTest testCase_Report,testSteps_Report;
 	Object TestStep_Output ;
+	HashMap<String, String> hmapWindow;
 	boolean set_Input_Flag=false;
 	
-	String testCase_Output;
+	String testCase_Output,parentWinHandle,childWinHandle;
+	HashMap<String, String> WinHandles;
 	
 	@BeforeTest
 	public void readTestData()
@@ -358,19 +360,48 @@ public class ExecuteTest extends Utilities {
 			break;
 		
 		case "getWindowNames":
-			TestStep_Output = lowLevelKeywords.getWindowNames();
+			WinHandles = new HashMap<String, String>();
+			WinHandles = lowLevelKeywords.getWindowNames();
+			parentWinHandle = WinHandles.get("parentWindow");
+			if(parentWinHandle!=null) {
+			System.out.println("parentWinHandle: "+parentWinHandle);
+			}
+			childWinHandle = WinHandles.get("childWindow");
+			if(childWinHandle!=null) {
+			System.out.println("childWinHandle: "+childWinHandle);
+			}
 			set_Input_Flag=true;
 			logger.info("in switch case getwindownames:"+set_Input_Flag);
 			break;
 		
 		case "switchToWindow":
-			if(strTestData.equalsIgnoreCase("original")){strTestData=lowLevelKeywords.orig_win_handle;}
-			logger.info("original window url:"+strTestData);
-			lowLevelKeywords.switchToWindow(strTestData);
+			
+			System.out.println("childWinHandle"+childWinHandle );
+			if(childWinHandle!=null) {
+			lowLevelKeywords.switchToWindow(childWinHandle);
+			}
 			break;
 		
+		case "switchToParentWindow":
+			System.out.println(parentWinHandle);
+			if(parentWinHandle!=null) {
+			lowLevelKeywords.switchToParentWindow(parentWinHandle);
+			}
+			break;
+			
+		case "switchToPrintWindow":
+			System.out.println("childWinHandle");
+			if(childWinHandle!=null) {
+			lowLevelKeywords.switchToPrintWindow(childWinHandle);
+			}
+			break;
+			
 		case "closepopupWindow":	
 			lowLevelKeywords.closepopupWindow();
+			break;
+			
+		case "closeLatestWindow":	
+			lowLevelKeywords.closeLatestWindow();
 			break;
 		
 		case "verifyTitle":	
@@ -380,6 +411,10 @@ public class ExecuteTest extends Utilities {
 		case "scrollByElement":	
 			lowLevelKeywords.scrollByElement(ElementBy,strElementID);
 			break;	
+			
+		case "selectFirstOptionInDropDownList":	
+			lowLevelKeywords.selectFirstOptionInDropDownList(ElementBy,strElementID,strTestData);
+			break;
 		
 		case "selectByValue":	
 			lowLevelKeywords.selectByValue(ElementBy,strElementID,strTestData);
@@ -407,6 +442,14 @@ public class ExecuteTest extends Utilities {
 
 		case "scrollDown":	
 			lowLevelKeywords.scrollDown();
+			break;
+		
+		case "scroll_Horizontally":	
+			lowLevelKeywords.scroll_Horizontally(ElementBy,strElementID,strTestData);
+			break;
+		
+		case "scroll_Vertically":	
+			lowLevelKeywords.scroll_Vertically(ElementBy,strElementID,strTestData);
 			break;
 		
 		case "refresh":	
@@ -442,6 +485,10 @@ public class ExecuteTest extends Utilities {
 			lowLevelKeywords.scrollByElement(ElementBy, strElementID);
 			break;
 
+		case "verifyTextAnyWhere": 
+			lowLevelKeywords.verifyTextAnyWhere(ElementBy, strElementID,strTestData);
+			break;
+			
 		case "waitForSeconds": 
 			lowLevelKeywords.waitForSeconds(strTestData);
 			break;
@@ -563,6 +610,9 @@ public class ExecuteTest extends Utilities {
 			lowLevelKeywords.contextClick(ElementBy,strElementID);
 			break;
 			
+		case "doubleClick": 
+			lowLevelKeywords.doubleClick(ElementBy,strElementID);
+			break;
 		
 		case "takePageScreenshot":
 			String screenShotPath = lowLevelKeywords.takePageScreenshot(strTestData);
@@ -622,6 +672,10 @@ public class ExecuteTest extends Utilities {
 			
 		case "scrollDownByPixel":
 			lowLevelKeywords.scrollDownByPixel();
+			break;
+			
+		case "zoomByPercentage":
+			lowLevelKeywords.zoomByPercentage(strTestData);
 			break;
 		
 			/**********************************************************************************/

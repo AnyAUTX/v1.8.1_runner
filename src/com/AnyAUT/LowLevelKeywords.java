@@ -44,7 +44,7 @@ public class LowLevelKeywords {
 	public WebDriver driver;
 	Alert alert;
 	int linkcount;
-	public String orig_win_handle, parentWindow;;
+	public String orig_win_handle, parentWindow, childWindow;
 
 	static Logger logger = Logger.getLogger(LowLevelKeywords.class);
 
@@ -513,9 +513,12 @@ public class LowLevelKeywords {
 	}
 
 	public HashMap<String, String> getWindowNames() {
-		Set<String> windowHandles = driver.getWindowHandles();
-		HashMap<String, String> hmap = new HashMap<String, String>();
+		Set<String> windowHandles=null;
+		HashMap<String, String> hmap=null;
+		windowHandles = driver.getWindowHandles();
+		hmap = new HashMap<String, String>();
 		orig_win_handle = driver.getWindowHandle();
+		hmap.put("parentWindow", orig_win_handle);
 		// window is a string looping thru all the window handles
 		for (String window : windowHandles) {
 			// when window is not original then switch to the new window and get
@@ -523,25 +526,34 @@ public class LowLevelKeywords {
 			if (!window.equals(orig_win_handle)) {
 				driver.switchTo().window(window);
 				// hmap.put(window, driver.getTitle());
-				hmap.put(window, driver.getCurrentUrl());
+				hmap.put("childWindow", window);
 			}
 		}
 		// go back to original window get the title
-		driver.switchTo().window(orig_win_handle);
+		//driver.switchTo().window(orig_win_handle);
 		// hmap.put(orig_win_handle, driver.getTitle());
-		hmap.put(orig_win_handle, driver.getCurrentUrl());
-		System.out.println(hmap);
+		
+		System.out.println("getWindowNames"+ hmap);
 		return hmap;
 	}
 
+		
 	public void closepopupWindow() {
 		driver.close();
 	}
 
-	public void switchToWindow(String url) {
-		driver.switchTo().window(url);
+	public void switchToWindow(String childWinHandle) {
+		
+		System.out.println("Child window:" + childWinHandle);
+		driver.switchTo().window(childWinHandle);
+		
 	}
-
+public void switchToParentWindow(String parentWinHandle) {
+		
+		System.out.println("Parent window:" + parentWinHandle);
+		driver.switchTo().window(parentWinHandle);
+		
+	}
 
 	public void waitForSeconds(String seconds) throws InterruptedException {
 		Thread.sleep(Integer.parseInt(seconds)*1000);
@@ -975,7 +987,7 @@ public class LowLevelKeywords {
 	 */
 
 	//Drag an object Horizontally .Eg scrolling a page left and right
-	public void Scroll_Horizontally (String ElementType,String ElementLocator,String xoffset)
+	public void scroll_Horizontally (String ElementType,String ElementLocator,String xoffset)
 	{
 		int yoffset =0;
 		int xoffset1 = Integer.parseInt(xoffset);
@@ -986,7 +998,7 @@ public class LowLevelKeywords {
 	} 
 
 	//Drag an object Vertically .Eg scrolling a page Up and Down 
-	public void Scroll_Vertically (String ElementType,String ElementLocator,String yoffset)
+	public void scroll_Vertically (String ElementType,String ElementLocator,String yoffset)
 	{
 		int xoffset=0;
 		int yoffset1 = Integer.parseInt(yoffset);
@@ -998,35 +1010,15 @@ public class LowLevelKeywords {
 	
 	// ************************* NEW BUILT-IN-KEYWORDS ********************************
 							
-	public void switchToPrintWindow() {									
-		System.out.println("Parent : "+ parentWindow);							
-		Set<String> windowHandles = driver.getWindowHandles();							
-		System.out.println("No of Windows : "+windowHandles.size());							
-		for (String window : windowHandles) 							
-			System.out.println("windowHandle : "+ window);						
-	    driver.switchTo().window((String) windowHandles.toArray()[windowHandles.size() - 2]);								
-	    System.out.println("Current Handle : "+ driver.getWindowHandle());								
-									
-	}
+	public void switchToPrintWindow(String childWinHandle) {									
 							
-	public void switchToParentWindow() {								
-		System.out.println("Parent : "+ parentWindow);							
-	    driver.switchTo().window(parentWindow);								
+	    driver.switchTo().window(childWinHandle);								
 	 								
 	}
 
 	public void closeLatestWindow() {								
-		System.out.println("Current Page Title : "+driver.getTitle());							
-		Set<String> windowHandles = driver.getWindowHandles();							
-									
-		for (String window : windowHandles) {							
-			if (window.equals(parentWindow)) break;						
-			else {						
-				driver.switchTo().window(window);					
-				driver.close();					
-				}					
-		}							
 					
+				driver.close();					
 	}								
 									
 	public void highlightElement(String EleType, String EleLocator, String color) {
