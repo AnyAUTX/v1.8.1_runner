@@ -24087,3 +24087,284 @@ Your email has been queued for sending, and will be sent in a couple minutes.
 2019-11-29 15:28:27,528 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 4
 2019-11-29 15:28:31,528 - com.AnyAUT.ExecuteTest -INFO - KW: switchToParentWindow ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 
 2019-11-29 15:28:31,545 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-12-16 13:00:36,334 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Chitra\Client_Proj\Phase2\ICM_Phase_II_Regression_Suite2.xls
+2019-12-16 13:00:36,356 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_16Dec_0100/TestRun_16Dec_0100.xls
+2019-12-16 13:00:38,866 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-12-16 13:00:38,872 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-12-16 13:00:38,874 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-12-16 13:00:38,875 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-12-16 13:00:38,885 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-12-16 13:00:38,915 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-12-16 13:00:38,927 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-12-16 13:00:38,957 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-12-16 13:00:39,022 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-12-16 13:00:39,028 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-12-16 13:00:43,874 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_16Dec_0100/TestRun_16Dec_0100.xls
+2019-12-16 13:00:43,876 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_16Dec_0100/RunResult.xls
+2019-12-16 13:00:43,896 - com.AnyAUT.ExecuteTest -INFO - Rows are 231
+2019-12-16 13:00:43,897 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-12-16 13:00:43,929 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-12-16 13:01:11,058 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net
+2019-12-16 13:01:13,432 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-12-16 13:01:14,095 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-12-16 13:01:14,665 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-12-16 13:01:16,478 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 15
+2019-12-16 13:01:31,557 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath  ,Element ID: //a[@title='Close Toolbar'] ,Test Data: 
+2019-12-16 13:01:31,852 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:01:36,913 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net/administration/company#administration/company/index
+2019-12-16 13:01:40,537 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:01:50,582 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:01:50,810 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:01:55,868 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@class='form-control' and @type='search'] ,Test Data: IAS
+2019-12-16 13:01:56,445 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 2
+2019-12-16 13:01:58,522 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@class='editCompanyCompanies'] ,Test Data: -
+2019-12-16 13:02:08,897 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:02:13,938 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:02:14,120 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: 
+2019-12-16 13:02:14,463 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-12-16 13:02:14,552 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: Contracts
+2019-12-16 13:02:14,770 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: -
+2019-12-16 13:02:15,937 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:02:20,986 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: 
+2019-12-16 13:02:21,167 - com.AnyAUT.ExecuteTest -INFO - is displayed Pass
+2019-12-16 13:02:21,257 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: Company Contracts
+2019-12-16 13:02:21,465 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //select[@name='invoices_disbursements_table_length'] ,Test Data: 
+2019-12-16 13:02:22,069 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //option[contains(text(),'500')] ,Test Data: 
+2019-12-16 13:02:22,639 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:02:27,751 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //option[contains(text(),'100')] ,Test Data: 
+2019-12-16 13:02:28,035 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:02:33,091 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //option[contains(text(),'50')] ,Test Data: 
+2019-12-16 13:02:33,416 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:02:38,487 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //option[contains(text(),'10')] ,Test Data: 
+2019-12-16 13:02:38,837 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:02:44,489 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-12-16 13:02:49,299 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-12-16 13:03:06,082 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net
+2019-12-16 13:03:08,096 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-12-16 13:03:08,576 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-12-16 13:03:09,057 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-12-16 13:03:09,437 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 15
+2019-12-16 13:03:24,575 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath  ,Element ID: //a[@title='Close Toolbar'] ,Test Data: 
+2019-12-16 13:03:25,021 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:03:30,056 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:03:40,089 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net/administration/company#administration/company/index
+2019-12-16 13:03:41,518 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:03:51,559 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:03:51,717 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:03:56,754 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@class='form-control' and @type='search'] ,Test Data: IAS
+2019-12-16 13:03:57,042 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 2
+2019-12-16 13:03:59,085 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@class='editCompanyCompanies'] ,Test Data: -
+2019-12-16 13:04:09,463 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:04:14,508 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:04:14,593 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: 
+2019-12-16 13:04:14,666 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: Contracts
+2019-12-16 13:04:14,720 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: -
+2019-12-16 13:04:14,777 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:04:14,806 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: 
+2019-12-16 13:04:24,886 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: Company Contracts
+2019-12-16 13:04:34,946 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@placeholder='Search...'] ,Test Data: 
+2019-12-16 13:04:45,023 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@placeholder='Search...'] ,Test Data: 
+2019-12-16 13:04:55,101 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@placeholder='Search...'] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:05:05,187 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:05:05,238 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //table[@id='datatable_contracts']/tbody/tr/td[4] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:05:15,339 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 
+2019-12-16 13:05:15,533 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-12-16 13:05:15,796 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net
+2019-12-16 13:05:15,863 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-12-16 13:05:16,005 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-12-16 13:05:26,106 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-12-16 13:05:36,172 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 15
+2019-12-16 13:05:36,214 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath  ,Element ID: //a[@title='Close Toolbar'] ,Test Data: 
+2019-12-16 13:05:36,260 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:05:36,298 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net/administration/company#administration/company/index
+2019-12-16 13:05:36,346 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:05:36,381 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:05:36,434 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:05:36,456 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@class='form-control' and @type='search'] ,Test Data: IAS
+2019-12-16 13:05:46,541 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 2
+2019-12-16 13:05:46,591 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@class='editCompanyCompanies'] ,Test Data: -
+2019-12-16 13:05:56,673 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:05:56,734 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:05:56,787 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: 
+2019-12-16 13:05:56,847 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: Contracts
+2019-12-16 13:05:56,895 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: -
+2019-12-16 13:05:56,946 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:05:56,976 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: 
+2019-12-16 13:06:07,046 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: Company Contracts
+2019-12-16 13:06:17,128 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[contains(text(),'Create')] ,Test Data: -
+2019-12-16 13:06:27,200 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:06:27,242 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='modal-content'] ,Test Data: 
+2019-12-16 13:06:28,699 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='modal-title'] ,Test Data: Add Company Contract Entry
+2019-12-16 13:06:28,726 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='title-box'] ,Test Data: Manage Contracts
+2019-12-16 13:06:28,746 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: 
+2019-12-16 13:06:28,760 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: -
+2019-12-16 13:06:28,772 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:28,788 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID:  ,Test Data: 5
+2019-12-16 13:06:28,806 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='col-md-5']//div[1]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:28,822 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='panel-body']//div[2]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:28,835 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-12-16 13:06:29,003 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-12-16 13:06:29,038 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net
+2019-12-16 13:06:29,054 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-12-16 13:06:29,072 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-12-16 13:06:29,115 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-12-16 13:06:29,126 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 15
+2019-12-16 13:06:29,141 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath  ,Element ID: //a[@title='Close Toolbar'] ,Test Data: 
+2019-12-16 13:06:29,160 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,176 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net/administration/company#administration/company/index
+2019-12-16 13:06:29,209 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:06:29,220 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:06:29,231 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,245 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@class='form-control' and @type='search'] ,Test Data: IAS
+2019-12-16 13:06:29,259 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 2
+2019-12-16 13:06:29,281 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@class='editCompanyCompanies'] ,Test Data: -
+2019-12-16 13:06:29,295 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,308 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:06:29,326 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: 
+2019-12-16 13:06:29,346 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: Contracts
+2019-12-16 13:06:29,360 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: -
+2019-12-16 13:06:29,380 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,393 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: 
+2019-12-16 13:06:29,417 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: Company Contracts
+2019-12-16 13:06:29,433 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[contains(text(),'Create')] ,Test Data: -
+2019-12-16 13:06:29,454 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,465 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='modal-content'] ,Test Data: 
+2019-12-16 13:06:29,486 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='modal-title'] ,Test Data: Add Company Contract Entry
+2019-12-16 13:06:29,499 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: 
+2019-12-16 13:06:29,510 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:29,526 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:29,538 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,546 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='panel-body']//div[2]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:29,564 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,578 - com.AnyAUT.ExecuteTest -INFO - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: -
+2019-12-16 13:06:29,590 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: 
+2019-12-16 13:06:29,607 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: TESTID-400
+2019-12-16 13:06:29,620 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:29,630 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,655 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='col-md-5']//div[1]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:29,668 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Cancel')] ,Test Data: 
+2019-12-16 13:06:29,684 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,697 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //span[contains(text(),'Create')] ,Test Data: -
+2019-12-16 13:06:29,706 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:29,716 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='modal-content'] ,Test Data: 
+2019-12-16 13:06:29,732 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='modal-title'] ,Test Data: Add Company Contract Entry
+2019-12-16 13:06:29,743 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: 
+2019-12-16 13:06:29,755 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:29,768 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: 
+2019-12-16 13:06:29,784 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: TESTID-400
+2019-12-16 13:06:29,818 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_required_0'] ,Test Data: 
+2019-12-16 13:06:29,830 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_active_0'] ,Test Data: 
+2019-12-16 13:06:29,844 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_w2Contract_0'] ,Test Data: 
+2019-12-16 13:06:29,855 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:29,873 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='divSmallBoxes']/div/div ,Test Data: Update Succesful!
+The contract was updated!
+2019-12-16 13:06:29,896 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-12-16 13:06:30,055 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: chrome
+2019-12-16 13:06:30,084 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net
+2019-12-16 13:06:30,096 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='text'] ,Test Data: kkosireddi_sa
+2019-12-16 13:06:30,107 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@type='password'] ,Test Data: fish90
+2019-12-16 13:06:30,120 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-12-16 13:06:30,130 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 15
+2019-12-16 13:06:30,150 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath  ,Element ID: //a[@title='Close Toolbar'] ,Test Data: 
+2019-12-16 13:06:30,162 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,175 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: https://2005.claimatic.net/administration/company#administration/company/index
+2019-12-16 13:06:30,189 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:06:30,201 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:06:30,212 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,235 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@class='form-control' and @type='search'] ,Test Data: IAS
+2019-12-16 13:06:30,247 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 2
+2019-12-16 13:06:30,259 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@class='editCompanyCompanies'] ,Test Data: -
+2019-12-16 13:06:30,271 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,283 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company')] ,Test Data: Company
+2019-12-16 13:06:30,292 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: 
+2019-12-16 13:06:30,309 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: Contracts
+2019-12-16 13:06:30,329 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[@id='company_contract_link'] ,Test Data: -
+2019-12-16 13:06:30,342 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,359 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: 
+2019-12-16 13:06:30,373 - com.AnyAUT.ExecuteTest -INFO - KW: verifyPartialText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h1[contains(text(),'Company Contracts')] ,Test Data: Company Contracts
+2019-12-16 13:06:30,385 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@placeholder='Search...'] ,Test Data: 
+2019-12-16 13:06:30,395 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@placeholder='Search...'] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:30,418 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,430 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //table[@id='datatable_contracts']/tbody/tr/td[4] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:30,444 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //table[@id='datatable_contracts']//a[text()=' Edit ' and @class='editCompanyContract'] ,Test Data: -
+2019-12-16 13:06:30,461 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:06:30,478 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='modal-content'] ,Test Data: 
+2019-12-16 13:06:30,491 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='modal-title'] ,Test Data: Add Company Contract Entry
+2019-12-16 13:06:30,499 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='title-box'] ,Test Data: Manage Contracts
+2019-12-16 13:06:30,515 - com.AnyAUT.ExecuteTest -INFO - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: 
+2019-12-16 13:06:30,524 - com.AnyAUT.ExecuteTest -INFO - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: -
+2019-12-16 13:06:30,533 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID:  ,Test Data: 5
+2019-12-16 13:06:30,542 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:30,553 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID:  ,Test Data: 5
+2019-12-16 13:06:30,563 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='col-md-5']//div[1]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:30,582 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='panel-body']//div[2]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:30,594 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Cancel')] ,Test Data: 
+2019-12-16 13:06:30,605 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,615 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@placeholder='Search...'] ,Test Data: 
+2019-12-16 13:06:30,626 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@placeholder='Search...'] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:30,636 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type:  ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,645 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //table[@id='datatable_contracts']/tbody/tr/td[4] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:30,652 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //table[@id='datatable_contracts']//a[text()=' Edit ' and @class='editCompanyContract'] ,Test Data: -
+2019-12-16 13:06:30,664 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 10
+2019-12-16 13:06:30,674 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='modal-content'] ,Test Data: 
+2019-12-16 13:06:30,684 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='modal-title'] ,Test Data: Add Company Contract Entry
+2019-12-16 13:06:30,695 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: 
+2019-12-16 13:06:30,709 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:30,721 - com.AnyAUT.ExecuteTest -INFO - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: 
+2019-12-16 13:06:30,728 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:30,748 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,762 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='panel-body']//div[2]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:30,774 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,786 - com.AnyAUT.ExecuteTest -INFO - KW: clearText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: -
+2019-12-16 13:06:30,797 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: TESTID-400
+2019-12-16 13:06:30,807 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:30,840 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,852 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='col-md-5']//div[1]//span[1] ,Test Data: ERROR: This value should not be blank.
+2019-12-16 13:06:30,862 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Cancel')] ,Test Data: 
+2019-12-16 13:06:30,874 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,895 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //table[@id='datatable_contracts']//a[text()=' Edit ' and @class='editCompanyContract'] ,Test Data: -
+2019-12-16 13:06:30,916 - com.AnyAUT.ExecuteTest -INFO - KW: waitForSeconds ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: 5
+2019-12-16 13:06:30,927 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@class='modal-content'] ,Test Data: 
+2019-12-16 13:06:30,935 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //h4[@class='modal-title'] ,Test Data: Add Company Contract Entry
+2019-12-16 13:06:30,947 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: 
+2019-12-16 13:06:30,958 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentName'] ,Test Data: TESTINGDOCUMENT3
+2019-12-16 13:06:30,971 - com.AnyAUT.ExecuteTest -INFO - KW: isDisplayed ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: 
+2019-12-16 13:06:30,979 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_documentId'] ,Test Data: TESTID-400
+2019-12-16 13:06:30,994 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_required_1'] ,Test Data: 
+2019-12-16 13:06:31,005 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_active_1'] ,Test Data: 
+2019-12-16 13:06:31,015 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //input[@id='company_contract_w2Contract_1'] ,Test Data: 
+2019-12-16 13:06:31,025 - com.AnyAUT.ExecuteTest -INFO - KW: clickElement ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //a[contains(text(),'Save')] ,Test Data: -
+2019-12-16 13:06:31,034 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //div[@id='divSmallBoxes']/div/div ,Test Data: Update Succesful!
+The contract was updated!
+2019-12-16 13:06:31,041 - com.AnyAUT.ExecuteTest -INFO - KW: quitBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-12-16 13:13:31,465 - com.AnyAUT.PrepareRun -INFO - Input FIle Path: C:\Users\yaash\git\anyaut\Demo.xls
+2019-12-16 13:13:31,475 - com.AnyAUT.PrepareRun -INFO - Output file path  :C:\Users\yaash\git\anyaut\Results\TestRun_16Dec_0113/TestRun_16Dec_0113.xls
+2019-12-16 13:13:32,054 - com.AnyAUT.PrepareRun -INFO - Entered Main Test
+2019-12-16 13:13:32,055 - com.AnyAUT.PrepareRun -INFO - Completed fetching the test cases ready for execution
+2019-12-16 13:13:32,059 - com.AnyAUT.PrepareRun -INFO - Completed assigning the top row
+2019-12-16 13:13:32,060 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-12-16 13:13:32,063 - com.AnyAUT.PrepareRun -INFO - Completed fetching test data sets for test case
+2019-12-16 13:13:32,067 - com.AnyAUT.PrepareRun -INFO - Main test preparation is completed
+2019-12-16 13:13:32,072 - com.AnyAUT.PrepareRun -INFO - Test Cases are added to the array
+2019-12-16 13:13:33,911 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_16Dec_0113/TestRun_16Dec_0113.xls
+2019-12-16 13:13:33,912 - com.AnyAUT.ExecuteTest -INFO - C:\Users\yaash\git\anyaut/Results/TestRun_16Dec_0113/RunResult.xls
+2019-12-16 13:13:33,918 - com.AnyAUT.ExecuteTest -INFO - Rows are 18
+2019-12-16 13:13:33,919 - com.AnyAUT.ExecuteTest -INFO - Cols are 15
+2019-12-16 13:13:33,934 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: Chrome
+2019-12-16 13:13:48,486 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://sonnys.sonnyscontrols.com
+2019-12-16 13:13:50,788 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: id ,Element ID: login-username ,Test Data: karthik
+2019-12-16 13:13:51,333 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: id ,Element ID: login-password ,Test Data: 12345678
+2019-12-16 13:13:51,811 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-12-16 13:13:53,398 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: id ,Element ID: report-title ,Test Data: Dashboard
+2019-12-16 13:13:53,666 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //*[@id="btn-user-menu-dropdown"]/span/ ,Test Data: Karthik Kosireddi
+2019-12-16 13:13:53,854 - com.AnyAUT.ExecuteTest -ERROR - Error : InvalidSelectorException
+2019-12-16 13:13:54,562 - com.AnyAUT.ExecuteTest -INFO - KW: closeBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: -
+2019-12-16 13:13:56,578 - com.AnyAUT.ExecuteTest -INFO - KW: openBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: Chrome
+2019-12-16 13:14:07,424 - com.AnyAUT.ExecuteTest -INFO - KW: navigateBrowser ,Element Type: - ,Element By: - ,Element ID: - ,Test Data: https://sonnys.sonnyscontrols.com
+2019-12-16 13:14:09,213 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: id ,Element ID: login-username ,Test Data: karthik
+2019-12-16 13:14:09,556 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: id ,Element ID: login-password ,Test Data: 12345678
+2019-12-16 13:14:09,886 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: xpath ,Element ID: //button[@type='submit'] ,Test Data: -
+2019-12-16 13:14:11,355 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: id ,Element ID: a-link-sidebar-dropdown-search ,Test Data: 
+2019-12-16 13:14:12,643 - com.AnyAUT.ExecuteTest -INFO - KW: verifyText ,Element Type: Reusable Element ,Element By: id ,Element ID: page-title ,Test Data: Search
+2019-12-16 13:14:12,788 - com.AnyAUT.ExecuteTest -INFO - KW: typeText ,Element Type: Reusable Element ,Element By: name ,Element ID: search_number ,Test Data: 123
+2019-12-16 13:14:13,049 - com.AnyAUT.ExecuteTest -INFO - KW: clickButton ,Element Type: Reusable Element ,Element By: id ,Element ID: btn-search-view-filters-save ,Test Data: -

@@ -111,7 +111,7 @@ public class ExecuteTest extends Utilities {
 		//create a directory with the file path. This ensures that there is a folder created for each execution
 		screenShotDirectory.mkdir();
 		screenShotFilePath = screenShotDirectory.getAbsolutePath();
-
+		int stopTest = 50;
 
 			for ( int j=1; j < xlTestCasesRowCount; j++)
 			{
@@ -147,8 +147,14 @@ public class ExecuteTest extends Utilities {
 						}
 						/*******************************************/
 						vStartTime = System.currentTimeMillis();
-
-						executeKW(lowLevelKeywords, keyWord, elementBy, elementID, testData);
+						
+						
+						if (stopTest > 0) {							
+							executeKW(lowLevelKeywords, keyWord, elementBy, elementID, testData);
+							stopTest--;
+						} else {
+							// break out of total execution
+						}
 						
 					//logger.info("Teststep status : "+testCase_Result);
 						long vStopTime = System.currentTimeMillis();
@@ -163,7 +169,7 @@ public class ExecuteTest extends Utilities {
 						testSteps_Report.log(LogStatus.INFO, "Test Data: "+ xlTestSteps[i][8]);
 						
 					    if(testCase_Result.equalsIgnoreCase("Pass")){
-					    //	lowLevelKeywords.highlightElement(elementBy, elementID, "yellow" );
+					    	lowLevelKeywords.highlightElement(elementBy, elementID, "yellow" );
 					    	
 					    	if(elementType.equals("One Time Use")) {
 							    	testSteps_Report.log(LogStatus.PASS,xlTestSteps[i][10]);

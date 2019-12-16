@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="143844" started-at="2019-11-29T20:26:08Z" finished-at="2019-11-29T20:28:32Z">
+  <suite name="Command line suite" duration-ms="41947" started-at="2019-12-16T18:13:32Z" finished-at="2019-12-16T18:14:14Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="143844" started-at="2019-11-29T20:26:08Z" finished-at="2019-11-29T20:28:32Z">
+    <test name="Command line test" duration-ms="41947" started-at="2019-12-16T18:13:32Z" finished-at="2019-12-16T18:14:14Z">
       <class name="com.AnyAUT.ExecuteTest">
-        <test-method status="PASS" signature="readTestData()[pri:0, instance:com.AnyAUT.ExecuteTest@769b4d31]" name="readTestData" is-config="true" duration-ms="524" started-at="2019-11-29T15:26:08Z" finished-at="2019-11-29T15:26:09Z">
+        <test-method status="PASS" signature="readTestData()[pri:0, instance:com.AnyAUT.ExecuteTest@185b0aa]" name="readTestData" is-config="true" duration-ms="1315" started-at="2019-12-16T13:13:32Z" finished-at="2019-12-16T13:13:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readTestData -->
-        <test-method status="FAIL" signature="executeTestSteps()[pri:0, instance:com.AnyAUT.ExecuteTest@769b4d31]" name="executeTestSteps" duration-ms="143288" started-at="2019-11-29T15:26:09Z" finished-at="2019-11-29T15:28:32Z">
+        <test-method status="FAIL" signature="executeTestSteps()[pri:0, instance:com.AnyAUT.ExecuteTest@185b0aa]" name="executeTestSteps" duration-ms="40580" started-at="2019-12-16T13:13:33Z" finished-at="2019-12-16T13:14:14Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:253)
+	at com.AnyAUT.ExecuteTest.executeTestSteps(ExecuteTest.java:259)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTestSteps -->
-        <test-method status="PASS" signature="getResults()[pri:0, instance:com.AnyAUT.ExecuteTest@769b4d31]" name="getResults" is-config="true" duration-ms="32" started-at="2019-11-29T15:28:32Z" finished-at="2019-11-29T15:28:32Z">
+        <test-method status="PASS" signature="getResults()[pri:0, instance:com.AnyAUT.ExecuteTest@185b0aa]" name="getResults" is-config="true" duration-ms="51" started-at="2019-12-16T13:14:14Z" finished-at="2019-12-16T13:14:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
